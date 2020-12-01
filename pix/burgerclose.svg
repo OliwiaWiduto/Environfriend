@@ -1,0 +1,6 @@
+<svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="10" y1="1.25" x2="30" y2="1.25" stroke="#474B50" stroke-width="1.5"/>
+<line x1="10" y1="8.25" x2="30" y2="8.25" stroke="#474B50" stroke-width="1.5"/>
+<line x1="10" y1="15.25" x2="30" y2="15.25" stroke="#474B50" stroke-width="1.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.64365 3.5H5.34L1.7 8.55841L5.34 12.9502H3.64L0 8.59889L3.64365 3.5Z" fill="#474B50"/>
+</svg>

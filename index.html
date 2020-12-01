@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/ico" sizes="32x32" href="favicon.ico">
+    <title>Tech Killing Planet? | Environfriend</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav" style="width: 300px;">
+        <div class="sidenav-heading">
+            <div class="logo"><img src="pix/textlogo.svg" alt=""></div>
+            <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">
+				<img src="pix/burgerclose.svg" alt="Close side navigation">
+            </a>
+        </div>
+        <a href="#">Introduction</a>
+        <a href="#">Section 1</a>
+        <a href="#" class="subitem">Introduction</a>
+        <a href="#" class="subitem">Heat & Asphyxiation</a>
+        <a href="#" class="subitem">Starvation</a>
+        <a href="#">Section 2</a>
+        <a href="#">Section 3</a>
+        <a href="#">Conclusion</a>
+    </div>
+    <div id="main" style="margin-left: 300px;">
+        <div class="topnav">
+            <span id="openbtn" style="cursor:pointer" onclick="openNav()">
+            	<img src="pix/burger.svg" alt="Open side navigation">
+<!-- 
+            &#9776; --></span>
+        </div>
+        <div class="content">
+            <div class="tab-container">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">Short Lifespans</div>
+                </div>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'sl-issues', 'sl')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'sl-pr', 'sl')">Pull Requests</button>
+                    <button class="tablinks" onclick="openCity(event, 'sl-actions', 'sl')">Actions</button>
+                </div>
+                <div id="sl-issues" class="tabcontent tabcontent-sl" style="display: block;">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="sl-pr" class="tabcontent tabcontent-sl">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="sl-actions" class="tabcontent tabcontent-sl">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+            <div class="tab-container">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">Planned Obsolescence</div>
+                </div>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'London', 'test')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris', 'test')">Pull Requests</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo', 'test')">Actions</button>
+                </div>
+                <div id="London" class="tabcontent tabcontent-test" style="display: block;">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="Paris" class="tabcontent tabcontent-test">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent tabcontent-test">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+            <div class="tab-container">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">Planned Obsolescence</div>
+                </div>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'London', 'city')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris', 'city')">Pull Requests</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo', 'city')">Actions</button>
+                </div>
+                <div id="London" class="tabcontent tabcontent-city" style="display: block;">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="Paris" class="tabcontent tabcontent-city">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent tabcontent-city">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+            <div class="tab-container">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">Planned Obsolescence</div>
+                </div>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'London')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Pull Requests</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Actions</button>
+                </div>
+                <div id="London" class="tabcontent" style="display: block;">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+            <div class="tab-container">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">Planned Obsolescence</div>
+                </div>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'London')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Pull Requests</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Actions</button>
+                </div>
+                <div id="London" class="tabcontent" style="display: block;">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/tabs.js"></script>
+    <script src="js/sidenav.js"></script>
+</body>
+
+</html>

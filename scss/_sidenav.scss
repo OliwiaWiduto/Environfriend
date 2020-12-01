@@ -1,0 +1,57 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: $black;
+
+    a {
+        padding: 8px 8px 8px 52px;
+        text-decoration: none;
+        color: $lightgrey;
+        display: block;
+        transition: 0.3s;
+
+        &.subitem {
+            margin-left: 20px;
+        }
+
+        &:hover {
+            color: #f1f1f1;
+        }
+    }
+
+    .closebtn {
+        padding: 18px 0 0 0;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+}
+
+.logo {
+    padding: 16px;
+    padding-right: 8px;
+}
+
+.sidenav-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*.sidenav @media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}*/
