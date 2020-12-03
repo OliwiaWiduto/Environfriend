@@ -1,0 +1,73 @@
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: $lightgrey;
+}
+
+
+.container:hover input~.checkmark {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #eb5756 0%, #eb5756 16%, #f29949 16%, #f29949 32%, #f2ca4b 32%, #f2ca4b 48%, #34e890 48%, #34e890 64%, #a57bff 64%, #a57bff 80%, #fe89d0 80%, #fe89d0 100%);
+    border-image-slice: 1;
+    width: 22px;
+    height: 22px;
+}
+
+.container input:checked~.checkmark {
+    background-color: #31373a;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #eb5756 0%, #eb5756 16%, #f29949 16%, #f29949 32%, #f2ca4b 32%, #f2ca4b 48%, #34e890 48%, #34e890 64%, #a57bff 64%, #a57bff 80%, #fe89d0 80%, #fe89d0 100%);
+    border-image-slice: 1;
+    width: 22px;
+    height: 22px;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+.container .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

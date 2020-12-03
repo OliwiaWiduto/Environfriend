@@ -9,12 +9,17 @@
     transition: 0.5s;
     background: $black;
 
+    @include phone {
+        width: 100vw !important;
+    }
+
     a {
         padding: 8px 8px 8px 52px;
         text-decoration: none;
         color: $lightgrey;
         display: block;
         transition: 0.3s;
+        min-width: 200px;
 
         &.subitem {
             margin-left: 20px;
@@ -23,10 +28,24 @@
         &:hover {
             color: #f1f1f1;
         }
+
+        @include phone {
+            padding-left: 0;
+            text-align: center;
+            font-size: 20px;
+        }
     }
 
     .closebtn {
         padding: 18px 0 0 0;
+
+        @include phone {
+            img {
+                padding-top: 5px !important;
+                width: 2rem !important;
+            }
+
+        }
     }
 
     #main {
@@ -38,6 +57,12 @@
 .logo {
     padding: 16px;
     padding-right: 8px;
+
+    @include phone {
+        img {
+            width: 80vw;
+        }
+    }
 }
 
 .sidenav-heading {
@@ -45,13 +70,3 @@
     flex-direction: row;
 }
 
-
-/*.sidenav @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-}*/

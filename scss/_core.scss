@@ -1,15 +1,19 @@
 body {
-	background: $black;
+    background: $black;
 }
 
 #main {
-	/*margin-left: 250px;*/
-	display: flex;
+    /*margin-left: 250px;*/
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .content {
-  width: 800px;
+    width: 800px;
+
+    @include phone {
+        width: auto !important;
+    }
 }

@@ -1,5 +1,5 @@
-/*COLORS*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+/*COLORS*/
 .pri {
   color: #34E890;
 }
@@ -36,6 +36,11 @@ body {
 .content {
   width: 800px;
 }
+@media (max-width: 599px) {
+  .content {
+    width: auto !important;
+  }
+}
 
 .tab {
   overflow: hidden;
@@ -59,6 +64,19 @@ body {
   margin: -1px;
   line-height: 100%;
 }
+.tab button.tablinks .notification {
+  padding: 0px 6px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 0;
+  margin-left: 6px;
+}
+.tab button.tablinks .notification.bad {
+  background: #eb5756;
+}
+.tab button.tablinks .notification.good {
+  background: #2ed26a;
+}
 .tab button:hover {
   background-color: #31363B;
 }
@@ -72,14 +90,24 @@ body {
   display: none;
   border: 1px solid #ffffff;
   border-top: none;
-  padding: 8px 16px;
+  padding: 20px 40px;
   margin-bottom: 40px;
+  height: 56vh;
+  overflow: scroll;
+}
+.tabcontent p {
+  margin-bottom: 48px;
+}
+.tabcontent .action {
+  margin-top: 20px;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 .commit-container {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .commit-container > * {
   margin-left: 10px;
@@ -118,12 +146,18 @@ body {
   transition: 0.5s;
   background: #222629;
 }
+@media (max-width: 599px) {
+  .sidenav {
+    width: 100vw !important;
+  }
+}
 .sidenav a {
   padding: 8px 8px 8px 52px;
   text-decoration: none;
   color: #464B51;
   display: block;
   transition: 0.3s;
+  min-width: 200px;
 }
 .sidenav a.subitem {
   margin-left: 20px;
@@ -131,8 +165,21 @@ body {
 .sidenav a:hover {
   color: #f1f1f1;
 }
+@media (max-width: 599px) {
+  .sidenav a {
+    padding-left: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+}
 .sidenav .closebtn {
   padding: 18px 0 0 0;
+}
+@media (max-width: 599px) {
+  .sidenav .closebtn img {
+    padding-top: 5px !important;
+    width: 2rem !important;
+  }
 }
 .sidenav #main {
   transition: margin-left 0.5s;
@@ -143,27 +190,92 @@ body {
   padding: 16px;
   padding-right: 8px;
 }
+@media (max-width: 599px) {
+  .logo img {
+    width: 80vw;
+  }
+}
 
 .sidenav-heading {
   display: flex;
   flex-direction: row;
 }
 
-/*.sidenav @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-}*/
 .topnav {
   width: 100%;
   padding-top: 10px;
+  padding-left: 16px;
 }
 .topnav #openbtn {
   visibility: hidden;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #464B51;
+}
+
+.container:hover input ~ .checkmark {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #eb5756 0%, #eb5756 16%, #f29949 16%, #f29949 32%, #f2ca4b 32%, #f2ca4b 48%, #34e890 48%, #34e890 64%, #a57bff 64%, #a57bff 80%, #fe89d0 80%, #fe89d0 100%);
+  border-image-slice: 1;
+  width: 22px;
+  height: 22px;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #31373a;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #eb5756 0%, #eb5756 16%, #f29949 16%, #f29949 32%, #f2ca4b 32%, #f2ca4b 48%, #34e890 48%, #34e890 64%, #a57bff 64%, #a57bff 80%, #fe89d0 80%, #fe89d0 100%);
+  border-image-slice: 1;
+  width: 22px;
+  height: 22px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 /*@import "darkmode";

@@ -19,6 +19,22 @@
         &.tablinks {
             margin: -1px;
             line-height: 100%;
+
+            .notification {
+                padding: 0px 6px;
+                border-radius: 20px;
+                font-size: 14px;
+                line-height: 0;
+                margin-left: 6px;
+
+                &.bad {
+                    background: #eb5756;
+                }
+
+                &.good {
+                    background: #2ed26a;
+                }
+            }
         }
 
         &:hover {
@@ -37,18 +53,31 @@
     display: none;
     border: 1px solid $white;
     border-top: none;
-    padding: 8px 16px;
+    padding: 20px 40px;
     margin-bottom: 40px;
+    height: 56vh;
+    overflow: scroll;
+
+    p {
+        margin-bottom: 48px;
+    }
+
+    .action {
+        margin-top: 20px;
+        border: 1px solid white;
+        padding: 10px;
+    }
 }
 
 
 .commit-container {
     display: flex;
     flex-direction: row;
-    padding-bottom: 10px;
-    &> * {
-    margin-left: 10px;
-}
+    padding-bottom: 20px;
+
+    &>* {
+        margin-left: 10px;
+    }
 
     .commit {
         color: black;
