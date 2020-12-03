@@ -17,13 +17,13 @@
                 <img src="pix/burgerclose.svg" alt="Close side navigation">
             </a>
         </div>
-        <a href="#">Introduction</a>
-        <a href="#">What is climate change?</a>
-        <a href="#">Cloud Computing</a>
-        <a href="#">Coding Languages</a>
-        <a href="#">Embodied Carbon</a>
-        <a href="#">Planned Obsolescence</a>
-        <a href="#">Conclusion</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#climate">What is climate change?</a>
+        <a href="#cloud">Cloud Computing</a>
+        <a href="#code">Coding Languages</a>
+        <a href="#carbon">Embodied Carbon</a>
+        <a href="#obsolescence">Planned Obsolescence</a>
+        <a href="#conclusion">Conclusion</a>
     </div>
     <div id="main" style="margin-left: 300px;">
         <div class="topnav">
@@ -33,18 +33,49 @@
             &#9776; --></span>
         </div>
         <div class="content">
-            <div class="tab-container">
+            <div class="title">
+                <h1>Tech Sector vs. Planet</h1>
+            <h5>Is the tech sector killing our planet and if so, what changes can we make?</h5>
+            </div>
+            <div class="tab-container" id="introduction">
                 <div class="vl"></div>
                 <div class="commit-container">
                     <img src="pix/enviricon.svg" alt="enviricon">
-                    <div class="commit">Does cloud computing contribute to climate change?</div>
+                    <div class="commit">Introduction</div>
                 </div>
-                <div class="tab">
-                    <button class="tablinks active" onclick="openCity(event, 'sl-issues', 'sl')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'sl-pr', 'sl')">Pull Requests<span class="notification bad">2</span></button>
-                    <button class="tablinks" onclick="openCity(event, 'sl-actions', 'sl')">Actions<span class="notification good">2</span></button>
+                <div class="tabcontent border-top" style="display: block;">
+                    <p>
+                        As the backbone of the information age, the tech sector has been growing exponentially. Unfortunately, it could be argued that the time and money we save in this current moment is stolen from our futures. Our daily activities produce greenhouse gases in such vast amounts that future generations of humans may not survive. If we continue living this way by 2030, <span class="underline"> “we will be in a position where we set off an irreversible chain reaction beyond human control, that will most likely lead to the end of our civilisation as we know it.”</span>
+                    </p>
+                    <p>
+                        This research aims to identify the impact of the tech sector on our planet and establish the most sustainable digital practices in 2020. To do this, it analyses software used by prominent <span class="highlight">Belfast based tech companies</span>. This data was gathered through a surveymonkey questionnaire, broken down into 9 main categories of tool use case. The questionnaire was completed by 32 companies from a list of Northern Ireland based companies with designers<a href="#conclusion"><sup>[5]</sup></a>, crowdsourced by members of popular Slack group, NI Design Chat. Results were rounded to the nearest 0.5%.
+                    </p>
+                    <p>
+                        Among those answering were employees of: Niice, Little Thunder, Dawson Andrews, Kainos, Deloitte, Whitespace, Instil, Big Motive, Synergy Learning, and PWC.
+                    </p>
+                    <p>
+                        This research will explain the source of carbon emissions, examine what digital products could contribute to that source, and suggest more carbon efficient alternatives.
+                    </p>
+                    <p>
+                        The findings of this research are broken down into 5 key sections.
+                    </p>
+                    <ol>
+                        <li>What is climate change?</li>
+                        <li>Cloud Computing</li>
+                        <li>Coding Languages</li>
+                        <li>Embodied Carbon</li>
+                        <li>Planned Obsolescence</li>
+                        </li>
+                        <ol>
                 </div>
-                <div id="sl-issues" class="tabcontent tabcontent-sl" style="display: block;">
+            </div>
+            <div class="tab-container" id="climate">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">What is climate change?</div>
+                </div>
+                <div class="tabcontent border-top" style="display: block;">
                     <p>Today, cloud computing is the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.” [source] Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” [source] Today, there are roughly 500 data centers which store our information.</p>
                     <p>Although the research varies, in 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” [source] </p>
                     <p>Although data centers are branded as “the cloud”, they are not metaphysical bodies in the stratosphere. When we save data to the cloud, it is in fact transferred to very physical data centers. An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m2 large - packed with physical servers. [source] That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning. </p>
@@ -56,7 +87,31 @@
                     <p>NI produces 33,890.9 tonnes of CO2 through internet related activities. If the grid was powered completely by</p> renewable energy which doesn’t produce, that number would be 0.
                     <p>In order to lower carbon emissions significantly, we must take a look at how and why we use cloud computing.</p>
                 </div>
-                <div id="sl-pr" class="tabcontent tabcontent-sl">
+            </div>
+            <div class="tab-container" id="cloud">
+                <div class="vl"></div>
+                <div class="commit-container">
+                    <img src="pix/enviricon.svg" alt="enviricon">
+                    <div class="commit">Does cloud computing contribute to climate change?</div>
+                </div>
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'cc-issues', 'cc')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'cc-pr', 'cc')">Pull Requests<span class="notification bad">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'cc-actions', 'cc')">Actions<span class="notification good">2</span></button>
+                </div>
+                <div id="cc-issues" class="tabcontent tabcontent-cc" style="display: block;">
+                    <p>Today, cloud computing is the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.” [source] Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” [source] Today, there are roughly 500 data centers which store our information.</p>
+                    <p>Although the research varies, in 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” [source] </p>
+                    <p>Although data centers are branded as “the cloud”, they are not metaphysical bodies in the stratosphere. When we save data to the cloud, it is in fact transferred to very physical data centers. An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m2 large - packed with physical servers. [source] That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning. </p>
+                    <p>Harnessing immense computational power, data centers consume colossal amounts of electricity. Moreover, when we transfer data it travels through a network of cables, once again powered by electricity. This electricity is derived from the power grid.</p>
+                    <p>The entire infrastructure of technology relies on the power grid. “The power grid is a network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.” [source] Between July 2019 and June 2020, Northern Ireland consumed 7,505 Gigawatt hours (GWh) of electricity. 52.3% (3928 GWh) of this electricity came from fossil fuels. [source] Fossil fuels produce carbon when they are burned. 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO2. [source] Establishing exactly how much electricity the internet uses is an impossible task, but for this example we will use the 2% of global electricity usage figure from the 2020 IEA report [source]. </p>
+                    <p>NI internet related electricity usage: 2% of 7,505 GWh = 150.1 GWh</p>
+                    <p>NI internet electricity from fossil fuels: 52.3% of 150.1GWh = 78.8GWh</p>
+                    <p>NI carbon emitted through internet related electricity usage: 78.8GWh x 430 tonnes of CO2 = 33,890.9 tonnes CO2</p>
+                    <p>NI produces 33,890.9 tonnes of CO2 through internet related activities. If the grid was powered completely by</p> renewable energy which doesn’t produce, that number would be 0.
+                    <p>In order to lower carbon emissions significantly, we must take a look at how and why we use cloud computing.</p>
+                </div>
+                <div id="cc-pr" class="tabcontent tabcontent-cc">
                     <h3>Solution 1: Stop gathering unstructured data</h3>
                     <p>“Unstructured data is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.” According to market research company IDC, 90% of unstructured data is never analysed. [source] This data is stored in server farms, using up electricity every hour of every day of every year until it is disposed of. </p>
                     <p>100% of the survey respondents said their company uses Google Analytics. 14% said they use Hotjar and 9% of businesses use Salesforce. All these tools contribute to the creation of unstructured trash data.</p>
@@ -73,7 +128,7 @@
                     <p>Another step we can take is using Creative Cloud offline. 39% of Belfast based companies use Illustrator, 23% use AfterEffects and 19% use Photoshop. All Adobe Software is installed locally, however it automatically runs Creative Cloud in the background. Using Activity Monitor once again, we can determine Creative Cloud and it’s counterparts were among the most power and network hungry processes during that session. While .psd & .ai files are very large, they become much smaller once exported. </p>
                     <p>To avoid this transfer of information, we can store working files locally, and share compressed .jpg or .svg [source] files with our team only when necessary. </p>
                 </div>
-                <div id="sl-actions" class="tabcontent tabcontent-sl">
+                <div id="cc-actions" class="tabcontent tabcontent-cc">
                     <label class="container">Stop gathering unstructured data
                         <input type="checkbox" checked="checked">
                         <span class="checkmark"></span>
@@ -92,100 +147,196 @@
                     </label>
                 </div>
             </div>
-            <div class="tab-container">
+            <div class="tab-container" id="code">
                 <div class="vl"></div>
                 <div class="commit-container">
                     <img src="pix/enviricon.svg" alt="enviricon">
-                    <div class="commit">Planned Obsolescence</div>
+                    <div class="commit">Do coding languages contribute to climate change?</div>
                 </div>
                 <div class="tab">
-                    <button class="tablinks active" onclick="openCity(event, 'London', 'test')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris', 'test')">Pull Requests</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo', 'test')">Actions</button>
+                    <button class="tablinks active" onclick="openCity(event, 'cl-issues', 'cl')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'cl-pr', 'cl')">Pull Requests<span class="notification bad">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'cl-actions', 'cl')">Actions<span class="notification good">2</span></button>
                 </div>
-                <div id="London" class="tabcontent tabcontent-test" style="display: block;">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
+                <div id="cl-issues" class="tabcontent tabcontent-cl" style="display: block;">
+                    <p>Today, cloud computing is the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.” [source] Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” [source] Today, there are roughly 500 data centers which store our information.</p>
+                    <p>Although the research varies, in 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” [source] </p>
+                    <p>Although data centers are branded as “the cloud”, they are not metaphysical bodies in the stratosphere. When we save data to the cloud, it is in fact transferred to very physical data centers. An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m2 large - packed with physical servers. [source] That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning. </p>
+                    <p>Harnessing immense computational power, data centers consume colossal amounts of electricity. Moreover, when we transfer data it travels through a network of cables, once again powered by electricity. This electricity is derived from the power grid.</p>
+                    <p>The entire infrastructure of technology relies on the power grid. “The power grid is a network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.” [source] Between July 2019 and June 2020, Northern Ireland consumed 7,505 Gigawatt hours (GWh) of electricity. 52.3% (3928 GWh) of this electricity came from fossil fuels. [source] Fossil fuels produce carbon when they are burned. 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO2. [source] Establishing exactly how much electricity the internet uses is an impossible task, but for this example we will use the 2% of global electricity usage figure from the 2020 IEA report [source]. </p>
+                    <p>NI internet related electricity usage: 2% of 7,505 GWh = 150.1 GWh</p>
+                    <p>NI internet electricity from fossil fuels: 52.3% of 150.1GWh = 78.8GWh</p>
+                    <p>NI carbon emitted through internet related electricity usage: 78.8GWh x 430 tonnes of CO2 = 33,890.9 tonnes CO2</p>
+                    <p>NI produces 33,890.9 tonnes of CO2 through internet related activities. If the grid was powered completely by</p> renewable energy which doesn’t produce, that number would be 0.
+                    <p>In order to lower carbon emissions significantly, we must take a look at how and why we use cloud computing.</p>
                 </div>
-                <div id="Paris" class="tabcontent tabcontent-test">
-                    <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p>
+                <div id="cl-pr" class="tabcontent tabcontent-cl">
+                    <h3>Solution 1: Stop gathering unstructured data</h3>
+                    <p>“Unstructured data is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.” According to market research company IDC, 90% of unstructured data is never analysed. [source] This data is stored in server farms, using up electricity every hour of every day of every year until it is disposed of. </p>
+                    <p>100% of the survey respondents said their company uses Google Analytics. 14% said they use Hotjar and 9% of businesses use Salesforce. All these tools contribute to the creation of unstructured trash data.</p>
+                    <p>Before embedding Google Analytics or Hotjar out of habit, we can run an ideation session (by ourselves or with our team) to determine what heuristics will help us better understand user behaviour in order to make our product better. This will shed light on exactly what data needs to be synthesised once it is collected, speeding up our workflow. Once we get what we need out of it: scrap it, don’t store it. By doing this, we decrease the amount of data we store in data centers, in turn using less servers, which means using less electricity and therefore producing less carbon.</p><br>
+                    <h3>Solution 2: Stop using tools which automatically transfer data</h3>
+                    <p>Tools like Google Docs, Notion and Slack automatically store data in the cloud make us feel as if we aren’t producing digital garbage every second.</p>
+                    <p>Inspecting network downloads/uploads using the process monitoring tool Activity Monitor, we can determine in this session Chrome, Notion & Slack had the highest rate of data transfers. 87.5% of companies use Slack. 22.5% of companies use Notion.</p>
+                    <p>According to a test using network monitoring software Little Snitch, all of the above apps transfer data to farms located in Kansas and Los Angeles. </p>
+                    <p>I used Notion to create a wiki for this dissertation. The wiki was comprised of links, text and roughly 20 images. I exported the data and found I’d generated 7.2MB in 1 week . In contrast to the link based wiki, Gerry McGovern’s book, “World Wide Waste” which covers this topic in much more depth weighs only 348 KB. Moreover, it isn’t transferred back and forth between our computer and Kansas, creating unnecessary pollution. </p>
+                    <p>To cut out the incessant data transfer of cloud note taking apps like Notion, we can switch to products like Apple Notes or Microsoft OneNote which give us the option to opt out of cloud storage. [source]</p>
+                    <p>The same logic can be applied to storing and creating data using the Google Suite. While Google data centers are powered by renewable energy, when we transfer data, carbon is still generated in the power grid. 75% of Belfast based companies use Google Docs, 55% Google Sheets, 55% Google Slides and 13% Forms.</p>
+                    <p>If we don’t need to share a document with the wider team, there is no need to store it in a data center. Instead, we can use local applications like the Microsoft or Apple suite cancelling out the transfer of data and creation of CO2 altogether. If we decide we do need to share the document, we can always upload it to Google Drive.</p>
+                    <p>If we are already storing a lot of documents in Google Drive, we can employ a methodology such as the previously mentioned Top Tasks to clear out what’s no longer necessary. As an added bonus we are improving our teams efficiency; no longer needing to wade through irrelevant documents to get to what we need. [G McG]</p>
+                    <p>Another step we can take is using Creative Cloud offline. 39% of Belfast based companies use Illustrator, 23% use AfterEffects and 19% use Photoshop. All Adobe Software is installed locally, however it automatically runs Creative Cloud in the background. Using Activity Monitor once again, we can determine Creative Cloud and it’s counterparts were among the most power and network hungry processes during that session. While .psd & .ai files are very large, they become much smaller once exported. </p>
+                    <p>To avoid this transfer of information, we can store working files locally, and share compressed .jpg or .svg [source] files with our team only when necessary. </p>
                 </div>
-                <div id="Tokyo" class="tabcontent tabcontent-test">
-                    <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
+                <div id="cl-actions" class="tabcontent tabcontent-cl">
+                    <label class="container">Stop gathering unstructured data
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Stop using tools which automatically transfer data
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Three
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Four
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
             </div>
-            <div class="tab-container">
+            <div class="tab-container" id="carbon">
                 <div class="vl"></div>
                 <div class="commit-container">
                     <img src="pix/enviricon.svg" alt="enviricon">
-                    <div class="commit">Planned Obsolescence</div>
+                    <div class="commit">Does embodied carbon contribute to climate change?</div>
                 </div>
                 <div class="tab">
-                    <button class="tablinks active" onclick="openCity(event, 'London', 'city')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris', 'city')">Pull Requests</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo', 'city')">Actions</button>
+                    <button class="tablinks active" onclick="openCity(event, 'ec-issues', 'ec')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'ec-pr', 'ec')">Pull Requests<span class="notification bad">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'ec-actions', 'ec')">Actions<span class="notification good">2</span></button>
                 </div>
-                <div id="London" class="tabcontent tabcontent-city" style="display: block;">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
+                <div id="ec-issues" class="tabcontent tabcontent-ec" style="display: block;">
+                    <p>Today, cloud computing is the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.” [source] Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” [source] Today, there are roughly 500 data centers which store our information.</p>
+                    <p>Although the research varies, in 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” [source] </p>
+                    <p>Although data centers are branded as “the cloud”, they are not metaphysical bodies in the stratosphere. When we save data to the cloud, it is in fact transferred to very physical data centers. An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m2 large - packed with physical servers. [source] That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning. </p>
+                    <p>Harnessing immense computational power, data centers consume colossal amounts of electricity. Moreover, when we transfer data it travels through a network of cables, once again powered by electricity. This electricity is derived from the power grid.</p>
+                    <p>The entire infrastructure of technology relies on the power grid. “The power grid is a network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.” [source] Between July 2019 and June 2020, Northern Ireland consumed 7,505 Gigawatt hours (GWh) of electricity. 52.3% (3928 GWh) of this electricity came from fossil fuels. [source] Fossil fuels produce carbon when they are burned. 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO2. [source] Establishing exactly how much electricity the internet uses is an impossible task, but for this example we will use the 2% of global electricity usage figure from the 2020 IEA report [source]. </p>
+                    <p>NI internet related electricity usage: 2% of 7,505 GWh = 150.1 GWh</p>
+                    <p>NI internet electricity from fossil fuels: 52.3% of 150.1GWh = 78.8GWh</p>
+                    <p>NI carbon emitted through internet related electricity usage: 78.8GWh x 430 tonnes of CO2 = 33,890.9 tonnes CO2</p>
+                    <p>NI produces 33,890.9 tonnes of CO2 through internet related activities. If the grid was powered completely by</p> renewable energy which doesn’t produce, that number would be 0.
+                    <p>In order to lower carbon emissions significantly, we must take a look at how and why we use cloud computing.</p>
                 </div>
-                <div id="Paris" class="tabcontent tabcontent-city">
-                    <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p>
+                <div id="ec-pr" class="tabcontent tabcontent-ec">
+                    <h3>Solution 1: Stop gathering unstructured data</h3>
+                    <p>“Unstructured data is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.” According to market research company IDC, 90% of unstructured data is never analysed. [source] This data is stored in server farms, using up electricity every hour of every day of every year until it is disposed of. </p>
+                    <p>100% of the survey respondents said their company uses Google Analytics. 14% said they use Hotjar and 9% of businesses use Salesforce. All these tools contribute to the creation of unstructured trash data.</p>
+                    <p>Before embedding Google Analytics or Hotjar out of habit, we can run an ideation session (by ourselves or with our team) to determine what heuristics will help us better understand user behaviour in order to make our product better. This will shed light on exactly what data needs to be synthesised once it is collected, speeding up our workflow. Once we get what we need out of it: scrap it, don’t store it. By doing this, we decrease the amount of data we store in data centers, in turn using less servers, which means using less electricity and therefore producing less carbon.</p><br>
+                    <h3>Solution 2: Stop using tools which automatically transfer data</h3>
+                    <p>Tools like Google Docs, Notion and Slack automatically store data in the cloud make us feel as if we aren’t producing digital garbage every second.</p>
+                    <p>Inspecting network downloads/uploads using the process monitoring tool Activity Monitor, we can determine in this session Chrome, Notion & Slack had the highest rate of data transfers. 87.5% of companies use Slack. 22.5% of companies use Notion.</p>
+                    <p>According to a test using network monitoring software Little Snitch, all of the above apps transfer data to farms located in Kansas and Los Angeles. </p>
+                    <p>I used Notion to create a wiki for this dissertation. The wiki was comprised of links, text and roughly 20 images. I exported the data and found I’d generated 7.2MB in 1 week . In contrast to the link based wiki, Gerry McGovern’s book, “World Wide Waste” which covers this topic in much more depth weighs only 348 KB. Moreover, it isn’t transferred back and forth between our computer and Kansas, creating unnecessary pollution. </p>
+                    <p>To cut out the incessant data transfer of cloud note taking apps like Notion, we can switch to products like Apple Notes or Microsoft OneNote which give us the option to opt out of cloud storage. [source]</p>
+                    <p>The same logic can be applied to storing and creating data using the Google Suite. While Google data centers are powered by renewable energy, when we transfer data, carbon is still generated in the power grid. 75% of Belfast based companies use Google Docs, 55% Google Sheets, 55% Google Slides and 13% Forms.</p>
+                    <p>If we don’t need to share a document with the wider team, there is no need to store it in a data center. Instead, we can use local applications like the Microsoft or Apple suite cancelling out the transfer of data and creation of CO2 altogether. If we decide we do need to share the document, we can always upload it to Google Drive.</p>
+                    <p>If we are already storing a lot of documents in Google Drive, we can employ a methodology such as the previously mentioned Top Tasks to clear out what’s no longer necessary. As an added bonus we are improving our teams efficiency; no longer needing to wade through irrelevant documents to get to what we need. [G McG]</p>
+                    <p>Another step we can take is using Creative Cloud offline. 39% of Belfast based companies use Illustrator, 23% use AfterEffects and 19% use Photoshop. All Adobe Software is installed locally, however it automatically runs Creative Cloud in the background. Using Activity Monitor once again, we can determine Creative Cloud and it’s counterparts were among the most power and network hungry processes during that session. While .psd & .ai files are very large, they become much smaller once exported. </p>
+                    <p>To avoid this transfer of information, we can store working files locally, and share compressed .jpg or .svg [source] files with our team only when necessary. </p>
                 </div>
-                <div id="Tokyo" class="tabcontent tabcontent-city">
-                    <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
+                <div id="ec-actions" class="tabcontent tabcontent-ec">
+                    <label class="container">Stop gathering unstructured data
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Stop using tools which automatically transfer data
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Three
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Four
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
             </div>
-            <div class="tab-container">
+            <div class="tab-container" id="obsolescence">
                 <div class="vl"></div>
                 <div class="commit-container">
                     <img src="pix/enviricon.svg" alt="enviricon">
-                    <div class="commit">Planned Obsolescence</div>
+                    <div class="commit">Does planned obsolescence contribute to climate change?</div>
                 </div>
                 <div class="tab">
-                    <button class="tablinks active" onclick="openCity(event, 'London')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Pull Requests</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Actions</button>
+                    <button class="tablinks active" onclick="openCity(event, 'po-issues', 'po')">Issues</button>
+                    <button class="tablinks" onclick="openCity(event, 'po-pr', 'po')">Pull Requests<span class="notification bad">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'po-actions', 'po')">Actions<span class="notification good">2</span></button>
                 </div>
-                <div id="London" class="tabcontent" style="display: block;">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
+                <div id="po-issues" class="tabcontent tabcontent-po" style="display: block;">
+                    <p>Today, cloud computing is the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.” [source] Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” [source] Today, there are roughly 500 data centers which store our information.</p>
+                    <p>Although the research varies, in 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” [source] </p>
+                    <p>Although data centers are branded as “the cloud”, they are not metaphysical bodies in the stratosphere. When we save data to the cloud, it is in fact transferred to very physical data centers. An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m2 large - packed with physical servers. [source] That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning. </p>
+                    <p>Harnessing immense computational power, data centers consume colossal amounts of electricity. Moreover, when we transfer data it travels through a network of cables, once again powered by electricity. This electricity is derived from the power grid.</p>
+                    <p>The entire infrastructure of technology relies on the power grid. “The power grid is a network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.” [source] Between July 2019 and June 2020, Northern Ireland consumed 7,505 Gigawatt hours (GWh) of electricity. 52.3% (3928 GWh) of this electricity came from fossil fuels. [source] Fossil fuels produce carbon when they are burned. 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO2. [source] Establishing exactly how much electricity the internet uses is an impossible task, but for this example we will use the 2% of global electricity usage figure from the 2020 IEA report [source]. </p>
+                    <p>NI internet related electricity usage: 2% of 7,505 GWh = 150.1 GWh</p>
+                    <p>NI internet electricity from fossil fuels: 52.3% of 150.1GWh = 78.8GWh</p>
+                    <p>NI carbon emitted through internet related electricity usage: 78.8GWh x 430 tonnes of CO2 = 33,890.9 tonnes CO2</p>
+                    <p>NI produces 33,890.9 tonnes of CO2 through internet related activities. If the grid was powered completely by</p> renewable energy which doesn’t produce, that number would be 0.
+                    <p>In order to lower carbon emissions significantly, we must take a look at how and why we use cloud computing.</p>
                 </div>
-                <div id="Paris" class="tabcontent">
-                    <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p>
+                <div id="po-pr" class="tabcontent tabcontent-po">
+                    <h3>Solution 1: Stop gathering unstructured data</h3>
+                    <p>“Unstructured data is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.” According to market research company IDC, 90% of unstructured data is never analysed. [source] This data is stored in server farms, using up electricity every hour of every day of every year until it is disposed of. </p>
+                    <p>100% of the survey respondents said their company uses Google Analytics. 14% said they use Hotjar and 9% of businesses use Salesforce. All these tools contribute to the creation of unstructured trash data.</p>
+                    <p>Before embedding Google Analytics or Hotjar out of habit, we can run an ideation session (by ourselves or with our team) to determine what heuristics will help us better understand user behaviour in order to make our product better. This will shed light on exactly what data needs to be synthesised once it is collected, speeding up our workflow. Once we get what we need out of it: scrap it, don’t store it. By doing this, we decrease the amount of data we store in data centers, in turn using less servers, which means using less electricity and therefore producing less carbon.</p><br>
+                    <h3>Solution 2: Stop using tools which automatically transfer data</h3>
+                    <p>Tools like Google Docs, Notion and Slack automatically store data in the cloud make us feel as if we aren’t producing digital garbage every second.</p>
+                    <p>Inspecting network downloads/uploads using the process monitoring tool Activity Monitor, we can determine in this session Chrome, Notion & Slack had the highest rate of data transfers. 87.5% of companies use Slack. 22.5% of companies use Notion.</p>
+                    <p>According to a test using network monitoring software Little Snitch, all of the above apps transfer data to farms located in Kansas and Los Angeles. </p>
+                    <p>I used Notion to create a wiki for this dissertation. The wiki was comprised of links, text and roughly 20 images. I exported the data and found I’d generated 7.2MB in 1 week . In contrast to the link based wiki, Gerry McGovern’s book, “World Wide Waste” which covers this topic in much more depth weighs only 348 KB. Moreover, it isn’t transferred back and forth between our computer and Kansas, creating unnecessary pollution. </p>
+                    <p>To cut out the incessant data transfer of cloud note taking apps like Notion, we can switch to products like Apple Notes or Microsoft OneNote which give us the option to opt out of cloud storage. [source]</p>
+                    <p>The same logic can be applied to storing and creating data using the Google Suite. While Google data centers are powered by renewable energy, when we transfer data, carbon is still generated in the power grid. 75% of Belfast based companies use Google Docs, 55% Google Sheets, 55% Google Slides and 13% Forms.</p>
+                    <p>If we don’t need to share a document with the wider team, there is no need to store it in a data center. Instead, we can use local applications like the Microsoft or Apple suite cancelling out the transfer of data and creation of CO2 altogether. If we decide we do need to share the document, we can always upload it to Google Drive.</p>
+                    <p>If we are already storing a lot of documents in Google Drive, we can employ a methodology such as the previously mentioned Top Tasks to clear out what’s no longer necessary. As an added bonus we are improving our teams efficiency; no longer needing to wade through irrelevant documents to get to what we need. [G McG]</p>
+                    <p>Another step we can take is using Creative Cloud offline. 39% of Belfast based companies use Illustrator, 23% use AfterEffects and 19% use Photoshop. All Adobe Software is installed locally, however it automatically runs Creative Cloud in the background. Using Activity Monitor once again, we can determine Creative Cloud and it’s counterparts were among the most power and network hungry processes during that session. While .psd & .ai files are very large, they become much smaller once exported. </p>
+                    <p>To avoid this transfer of information, we can store working files locally, and share compressed .jpg or .svg [source] files with our team only when necessary. </p>
                 </div>
-                <div id="Tokyo" class="tabcontent">
-                    <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
+                <div id="po-actions" class="tabcontent tabcontent-po">
+                    <label class="container">Stop gathering unstructured data
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Stop using tools which automatically transfer data
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Three
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Four
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
             </div>
-            <div class="tab-container">
+            <div class="tab-container" id="conclusion">
                 <div class="vl"></div>
                 <div class="commit-container">
                     <img src="pix/enviricon.svg" alt="enviricon">
-                    <div class="commit">Planned Obsolescence</div>
+                    <div class="commit">Conclusion</div>
                 </div>
-                <div class="tab">
-                    <button class="tablinks active" onclick="openCity(event, 'London')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Pull Requests</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Actions</button>
-                </div>
-                <div id="London" class="tabcontent" style="display: block;">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
-                </div>
-                <div id="Paris" class="tabcontent">
-                    <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p>
-                </div>
-                <div id="Tokyo" class="tabcontent">
-                    <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
+                <div class="tabcontent border-top" style="display: block;">
+                    <p>
+                        Currently, the tech industry is responsible for 3.6% of the world’s carbon emissions. This paper presents a sound basis for how we can begin to offset them: design to avoid CO<sub>2 </sub>emissions, measure our CO<sub>2</sub> emissions, compress images, only collect data you need, use a green hosting provider, store data locally and use a framework which transfers the least amount of data possible.
+                    </p>
+                    <p>
+                        Working in the tech industry comes with many challenges as we try to solve problems which other sectors can’t. Aiming for environmental sustainability should not be another obstacle to solving these problems. Rather, we should treat it as a springboard for creative solutions. In the end, creative solutions are already the basis of our everyday job.
+                    </p>
                 </div>
             </div>
         </div>

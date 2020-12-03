@@ -2,6 +2,11 @@ body {
     background: $black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 #main {
     /*margin-left: 250px;*/
     display: flex;
