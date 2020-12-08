@@ -1,16 +1,18 @@
 const referencesData = [
   {
-    "id": "1",
+    "id": "one",
+    "author": "Gerry McGovern",
     "title": "World Wide Waste",
-    "date": "1/1/20",
+    "date": "2019",
     "type": "book",
     "link": "www.google.com"
   },
 
   {
-    "id": "2",
+    "id": "two",
+    "author": "David Wallace-Wells",
     "title": "Uninhabitable Earth",
-    "date": "21/5/16",
+    "date": "2016",
     "type": "book",
     "link": "www.bing.com"
   },

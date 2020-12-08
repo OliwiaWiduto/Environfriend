@@ -9,32 +9,28 @@ referencesData.forEach(item => {
     reference.setAttribute('class', 'reference');
     reference.setAttribute('id', item.id);
 
-    // // Adds click and hover events to each element
-    // element.addEventListener('click', function(){
-    //     currentElementPosition = elementPosition;
-    //     toggleContainerVisibility();
-
-    //     createElementDetails();
-
-    //     var elementName = elementsData[currentElementPosition-1]['name'];
-    //     var state = {post: currentElementPosition, visible: true};
-    //     history.pushState(state, '', `#${elementName}`);
-    // });
-    // element.addEventListener('mouseenter', function(){
-    //     hoverInfo(elementPosition);
-    // });
-    // element.addEventListener('focus', function(){
-    //     hoverInfo(elementPosition);
-    // });
-
-    // Injects child elements with Atomic Number and Symbol
+    // Injects child elements with Chicago reference content
     reference.innerHTML = `
-        <h5>${item.title}</h5>
-        <p>${item.date}</p>
-        <p>${item.type}</p>
-        <p>${item.link}</p>
+        <div class="source">Source</div>
+        <p>${item.author}, <i>${item.title}</i>, ${item.date}, ${item.type}, <a href="${item.link}">${item.link}</a>
+        </p>
     `;
 
 
     referenceContainer.appendChild(reference);
 });
+
+
+function openReference(evt, referenceName) {
+  var i, reference, referenceButton;
+  reference = document.getElementsByClassName("reference");
+  for (i = 0; i < reference.length; i++) {
+    reference[i].style.display = "none";
+  }
+  referenceButton = document.getElementsByClassName("referenceButton");
+  for (i = 0; i < referenceButton.length; i++) {
+    referenceButton[i].className = referenceButton[i].className.replace(" active", "");
+  }
+  document.getElementById(referenceName).style.display = "inline-block";
+  evt.currentTarget.className += " active";
+}

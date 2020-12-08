@@ -1,5 +1,45 @@
-.reference {
-    background: grey;
-    display: inline-block;
-    padding: 20px;
+a.referenceButton {
+    color: white;
+    text-decoration: none;
+    vertical-align: super;
+    font-size: 12px;
+    background: $orange;
+    color: $black;
+    padding: 0 5px;
+    font-weight: 600;
+    margin: 0 8px;
+}
+
+.reference-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    padding-bottom: 25px;
+
+    .reference {
+        background-color: transparent;
+        border: 1px dashed $offwhite;
+        color: $offwhite;
+        width: 250px;
+        display: none;
+
+
+        .source {
+            border-bottom: 1px dashed;
+            padding: 10px 20px;
+        }
+
+        p {
+            padding: 0 20px;
+        }
+
+        a {
+        	padding: 0;
+        	display: inline;
+        	text-decoration: underline!important;
+        }
+    }
 }

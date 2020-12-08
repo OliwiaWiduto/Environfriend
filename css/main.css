@@ -202,7 +202,7 @@ sup {
   left: 0;
   overflow-x: hidden;
   transition: 0.5s;
-  background: #222629;
+  background-color: #1d2023;
 }
 @media (max-width: 599px) {
   .sidenav {
@@ -212,7 +212,7 @@ sup {
 .sidenav a {
   padding: 8px 8px 8px 52px;
   text-decoration: none;
-  color: #464B51;
+  color: #808080;
   display: block;
   transition: 0.3s;
   min-width: 200px;
@@ -347,10 +347,45 @@ sup {
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
-.reference {
-  background: grey;
-  display: inline-block;
-  padding: 20px;
+a.referenceButton {
+  color: white;
+  text-decoration: none;
+  vertical-align: super;
+  font-size: 12px;
+  background: #F2994A;
+  color: #222629;
+  padding: 0 5px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.reference-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+  padding-bottom: 25px;
+}
+.reference-container .reference {
+  background-color: transparent;
+  border: 1px dashed #808080;
+  color: #808080;
+  width: 250px;
+  display: none;
+}
+.reference-container .reference .source {
+  border-bottom: 1px dashed;
+  padding: 10px 20px;
+}
+.reference-container .reference p {
+  padding: 0 20px;
+}
+.reference-container .reference a {
+  padding: 0;
+  display: inline;
+  text-decoration: underline !important;
 }
 
 .commitimage {

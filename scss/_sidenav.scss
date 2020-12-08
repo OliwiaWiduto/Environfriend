@@ -7,7 +7,7 @@
     left: 0;
     overflow-x: hidden;
     transition: 0.5s;
-    background: $black;
+    background-color: #1d2023;
 
     @include phone {
         width: 100vw !important;
@@ -16,7 +16,7 @@
     a {
         padding: 8px 8px 8px 52px;
         text-decoration: none;
-        color: $lightgrey;
+        color: $offwhite;
         display: block;
         transition: 0.3s;
         min-width: 200px;
