@@ -65,6 +65,11 @@
         margin-bottom: 48px;
     }
 
+    a {
+    color: $green;
+    border-bottom: 1px solid $green;
+}
+
     .action {
         margin-top: 20px;
         border: 1px solid white;

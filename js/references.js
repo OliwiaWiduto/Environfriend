@@ -12,7 +12,10 @@ referencesData.forEach(item => {
     // Injects child elements with Chicago reference content
     reference.innerHTML = `
         <div class="source">Source</div>
-        <p>${item.author}, <i>${item.title}</i>, ${item.date}, ${item.type}, <a href="${item.link}">${item.link}</a>
+        <p>${item.author}, 
+        <i>${item.title}</i>, 
+        ${item.date} ${item.year}, 
+        <a href="${item.link}">${item.link}</a>
         </p>
     `;
 

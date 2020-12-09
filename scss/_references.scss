@@ -3,11 +3,12 @@ a.referenceButton {
     text-decoration: none;
     vertical-align: super;
     font-size: 12px;
-    background: $orange;
-    color: $black;
-    padding: 0 5px;
+    background: $purple;
+    color: $black!important;
+    padding: 0 3px;
     font-weight: 600;
-    margin: 0 8px;
+    margin: 0 2px;
+    border-bottom: none;
 }
 
 .reference-container {
@@ -40,6 +41,7 @@ a.referenceButton {
         	padding: 0;
         	display: inline;
         	text-decoration: underline!important;
+        	overflow-wrap: break-word;
         }
     }
 }
