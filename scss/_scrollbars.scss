@@ -6,3 +6,7 @@
   background-color: rgb(255 255 255);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
+
+#mySidenav::-webkit-scrollbar-thumb {
+all: unset;
+}

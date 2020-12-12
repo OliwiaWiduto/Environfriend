@@ -140,6 +140,10 @@ html {
   margin-top: 36px;
 }
 
+.sidenav {
+  font-size: 14px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -186,17 +190,6 @@ p a {
   text-decoration: none !important;
 }
 
-/* styled sup
-sup {
-    color: black;
-    line-height: 100%;
-    font-size: 10px;
-    background: #fe89d0;
-    padding: 0 5px;
-    margin-left: 4px;
-    display: inline;
-    margin-top: 30px;
-}*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -213,10 +206,37 @@ sup {
     width: 100vw !important;
   }
 }
-.sidenav a {
-  padding: 8px 8px 8px 52px;
+.sidenav .navItemContainer {
+  border-bottom: 0.5px solid #2e3335;
+  padding: 16px 0;
+}
+.sidenav .navItemContainer.first {
+  border-top: 0.5px solid #2e3335;
+}
+.sidenav .navItemContainer .navItemsButton {
+  padding: 8px 8px 8px 16px;
   text-decoration: none;
-  color: #808080;
+  color: #435056;
+  display: block;
+  transition: 0.3s;
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sidenav .navItemContainer .navItemsButton .chevron {
+  transform: rotate(0deg);
+}
+.sidenav .navItemContainer .navItemsButton.active .chevron {
+  transform: rotate(270deg) !important;
+}
+.sidenav .navItemContainer .navItemsToggle:hover {
+  cursor: pointer;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #435056;
   display: block;
   transition: 0.3s;
   min-width: 200px;
@@ -251,6 +271,9 @@ sup {
 .logo {
   padding: 16px;
   padding-right: 8px;
+}
+.logo img {
+  width: 195px;
 }
 @media (max-width: 599px) {
   .logo img {
@@ -351,7 +374,11 @@ sup {
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
-a.referenceButton {
+#mySidenav::-webkit-scrollbar-thumb {
+  all: unset;
+}
+
+a.footnote {
   color: white;
   text-decoration: none;
   vertical-align: super;
@@ -368,16 +395,17 @@ a.referenceButton {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  width: 300px;
+  width: 265px;
+  /*position: absolute;
   bottom: 0;
-  padding-bottom: 25px;
+  padding-bottom: 25px;*/
 }
 .reference-container .reference {
   background-color: transparent;
-  border: 1px dashed #808080;
-  color: #808080;
-  width: 250px;
+  color: #a57bff;
+  opacity: 0.6;
+  width: 265px;
+  font-size: 14px;
   display: none;
 }
 .reference-container .reference .source {
@@ -386,12 +414,14 @@ a.referenceButton {
 }
 .reference-container .reference p {
   padding: 0 20px;
+  margin: 0;
 }
 .reference-container .reference a {
   padding: 0;
   display: inline;
   text-decoration: underline !important;
   overflow-wrap: break-word;
+  color: #a57bff;
 }
 
 .commitimage {

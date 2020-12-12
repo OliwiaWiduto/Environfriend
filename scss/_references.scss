@@ -1,10 +1,10 @@
-a.referenceButton {
+a.footnote {
     color: white;
     text-decoration: none;
     vertical-align: super;
     font-size: 12px;
     background: $purple;
-    color: $black!important;
+    color: $black !important;
     padding: 0 3px;
     font-weight: 600;
     margin: 0 2px;
@@ -15,16 +15,17 @@ a.referenceButton {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    width: 300px;
+    width: 265px;
+    /*position: absolute;
     bottom: 0;
-    padding-bottom: 25px;
+    padding-bottom: 25px;*/
 
     .reference {
         background-color: transparent;
-        border: 1px dashed $offwhite;
-        color: $offwhite;
-        width: 250px;
+        color: $purple;
+        opacity: 0.6;
+        width: 265px;
+        font-size: 14px;
         display: none;
 
 
@@ -35,13 +36,15 @@ a.referenceButton {
 
         p {
             padding: 0 20px;
+            margin: 0;
         }
 
         a {
-        	padding: 0;
-        	display: inline;
-        	text-decoration: underline!important;
-        	overflow-wrap: break-word;
+            padding: 0;
+            display: inline;
+            text-decoration: underline !important;
+            overflow-wrap: break-word;
+            color: $purple;
         }
     }
 }

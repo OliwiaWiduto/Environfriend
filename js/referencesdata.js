@@ -1,6 +1,6 @@
 const referencesData = [
  {
-   "id": "one",
+   "id": 1,
    "author": "Greta Thunberg",
    "title": "You did not act in time': Greta Thunberg's full speech to MPs",
    "publisher": "The Guardian",
@@ -12,7 +12,31 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "two",
+   "id": 2,
+   "author": "NI Design Chat, Slack Group",
+   "title": "Companies with designers in Northern Ireland",
+   "publisher": "Google Sheets",
+   "date": "",
+   "year": 2020,
+   "link": "https://docs.google.com/spreadsheets/d/1YxvuU0IYXEFWEmddc9N1be7lYxuzPdgRDd3fjsPmewk/edit?fbclid=IwAR2wh4omWlTw_hQkzoyi3SVyAH8HGg38WhcbxTE4eOHnAl8JQ3Vr66bS7Hk#gid=0",
+   "place": "",
+   "page": "",
+   "dissertation": ""
+ },
+ {
+   "id": 3,
+   "author": "David Wallace-Wells",
+   "title": "The Uninhabitable Earth",
+   "publisher": "Penguin",
+   "date": "",
+   "year": 2019,
+   "link": "",
+   "place": "",
+   "page": "",
+   "dissertation": ""
+ },
+ {
+   "id": 4,
    "author": "",
    "title": "The impacts of climate change at 1.5C, 2C and beyond",
    "publisher": "",
@@ -24,7 +48,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "three",
+   "id": 5,
    "author": "Kurzgesagt",
    "title": "Is it too late to stop climate change? Well, it's complicated.",
    "publisher": "Youtube",
@@ -36,7 +60,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "four",
+   "id": 6,
    "author": "Asim Hussain",
    "title": "Take the Green pill and I'll show you how deep the rabbit hole goes",
    "publisher": "asim.dev",
@@ -48,7 +72,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "five",
+   "id": 7,
    "author": "Greta Thunberg",
    "title": "You did not act in time': Greta Thunberg's full speech to MPs",
    "publisher": "The Guardian",
@@ -60,7 +84,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "six",
+   "id": 8,
    "author": "PBS NewsHour",
    "title": "WATCH: Greta Thunberg's full speech to world leaders at UN Climate Action Summit",
    "publisher": "Youtube",
@@ -72,7 +96,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "seven",
+   "id": 9,
    "author": "United Nations",
    "title": "The Paris Agreement",
    "publisher": "United Nations",
@@ -84,7 +108,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "eight",
+   "id": 10,
    "author": "Andrew Beattie",
    "title": "The 3 Pillars of Corporate Sustainability",
    "publisher": "Investopedia",
@@ -96,19 +120,19 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "nine",
+   "id": 11,
    "author": "Google",
    "title": "Carbon neutral since 2007. Carbon free by 2030.",
    "publisher": "Google",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://sustainability.google/commitments/#leading-at-google",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "ten",
+   "id": 12,
    "author": "Gerry McGovern",
    "title": "World Wide Waste",
    "publisher": "Silver Beach Publishing",
@@ -120,7 +144,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "eleven",
+   "id": 13,
    "author": "Gerry McGovern",
    "title": "World Wide Waste",
    "publisher": "Silver Beach Publishing",
@@ -132,31 +156,31 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twelve",
+   "id": 14,
    "author": "Oxford Dictionary",
    "title": "Cloud Computing",
    "publisher": "Google",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://www.google.com/search?q=define+cloud+computing&oq=define+cloud+&aqs=chrome.0.0i457j0l2j69i57j0l4.11473j1j9&sourceid=chrome&ie=UTF-8",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "thirteen",
+   "id": 15,
    "author": "Oxford Dictionary",
    "title": "Data Centre",
    "publisher": "Google",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://www.google.com/search?sxsrf=ALeKk03kY84ShsmPpizmWYHZFlM82nJ9aQ%3A1607518852995&ei=hMrQX4KkPMbKgQaPg7CgBQ&q=data+center+definition",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "fourteen",
+   "id": 16,
    "author": "Yevgeniy Sverdlik",
    "title": "Analysts: There are Now More than 500 Hyperscale Data Centers in the World",
    "publisher": "Data Center Knowledge",
@@ -168,7 +192,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifteen",
+   "id": 17,
    "author": "Przemek Chojecki",
    "title": "How Big is Big Data?",
    "publisher": "Towards Data Science",
@@ -180,7 +204,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "sixteen",
+   "id": 18,
    "author": "Jenna Baker",
    "title": "H5 Data Centers Announces Expansion of its Atlanta Edge Data Center",
    "publisher": "H5 Data Centers",
@@ -192,9 +216,9 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "seventeen",
+   "id": 19,
    "author": "",
-   "title": "power grid",
+   "title": "Power Grid",
    "publisher": "Collins",
    "date": "",
    "year": 2020,
@@ -204,7 +228,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "eighteen",
+   "id": 20,
    "author": "Sean Donnelly",
    "title": "Electricity Consumption and Renewable Generation Statistics",
    "publisher": "Department for the Economy",
@@ -216,7 +240,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "nineteen",
+   "id": 21,
    "author": "Department for the Business, Energy & Industrial Strategy",
    "title": "2018 UK GREENHOUSE\nGAS EMISSIONS,\nPROVISIONAL FIGURE",
    "publisher": "Department for the Business, Energy & Industrial Strategy",
@@ -228,7 +252,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty",
+   "id": 22,
    "author": "IEA",
    "title": "Data Centres and Data Transmission Networks",
    "publisher": "IEA",
@@ -240,7 +264,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-one",
+   "id": 23,
    "author": "Mary Meehan",
    "title": "What Your Data Isn't Telling You: Dark Data Presents Problems And Opportunities For Big Businesses",
    "publisher": "Forbes",
@@ -252,7 +276,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-two",
+   "id": 24,
    "author": "Apple",
    "title": "Activity Monitor User Guide",
    "publisher": "Apple",
@@ -264,7 +288,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-three",
+   "id": 25,
    "author": "obdev",
    "title": "Little Snitch: Makes the invisible visible!",
    "publisher": "obdev",
@@ -276,7 +300,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-four",
+   "id": 26,
    "author": "CRAZY_AnieL",
    "title": "Can you use OneNote without OneDrive?",
    "publisher": "reddit",
@@ -288,7 +312,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-five",
+   "id": 27,
    "author": "Theron Mathis",
    "title": "JPEG or PNG? – Increasing Page Speed with Proper Image Formatting",
    "publisher": "Interactive Search Marketing",
@@ -300,7 +324,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-six",
+   "id": 28,
    "author": "w3 Techs",
    "title": "Usage statistics and market share of WordPress",
    "publisher": "w3 Techs",
@@ -312,7 +336,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-seven",
+   "id": 29,
    "author": "lauren orsini",
    "title": "How Etsy Reinvented Its Development Process",
    "publisher": "readwrite",
@@ -324,7 +348,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-eight",
+   "id": 30,
    "author": "Senthilkumar R",
    "title": "Data Usage",
    "publisher": "Chrome Web Store",
@@ -336,7 +360,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "twenty-nine",
+   "id": 31,
    "author": "SimilarWeb",
    "title": "Etsy Traffic Overview",
    "publisher": "SimilarWeb",
@@ -348,7 +372,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty",
+   "id": 32,
    "author": "Hardik Shah",
    "title": "12 Popular Websites that use React in Production",
    "publisher": "Simform",
@@ -360,19 +384,19 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-one",
+   "id": 33,
    "author": "SIMS Recycling Solutions",
    "title": "Data Centers: The Life Cycle of a Server",
    "publisher": "SIMS Recycling Solutions",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://i.pinimg.com/564x/cb/69/f6/cb69f68097d934c1f9c7e714e1ee156b.jpg",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "thirty-two",
+   "id": 34,
    "author": "UK Green Building Council",
    "title": "Embodied Carbon: Developing a client brief",
    "publisher": "Derwent London plc",
@@ -384,7 +408,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-three",
+   "id": 35,
    "author": "Dell",
    "title": "PowerEdge R640",
    "publisher": "Dell",
@@ -396,7 +420,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-four",
+   "id": 36,
    "author": "Asim Hussain",
    "title": "Embodied Carbon",
    "publisher": "Principles.Green",
@@ -408,7 +432,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-five",
+   "id": 37,
    "author": "Larry Dignan",
    "title": "AWS cloud computing ops, data centers, 1.3 million servers creating efficiency flywheel",
    "publisher": "ZDNet",
@@ -420,7 +444,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-six",
+   "id": 38,
    "author": "Jorge Alberto Falcón Hernández",
    "title": "How many servers does AWS have?",
    "publisher": "Quora",
@@ -432,7 +456,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-seven",
+   "id": 39,
    "author": "Paul Johnston & Anne Currie",
    "title": "The State of Data Center Energy Use in 2018",
    "publisher": "The Coed:Ethics Community\n",
@@ -444,7 +468,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-eight",
+   "id": 40,
    "author": "Carla Tardi",
    "title": "What Is Moore's Law?",
    "publisher": "Investopedia",
@@ -456,7 +480,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "thirty-nine",
+   "id": 41,
    "author": "Will Kenton",
    "title": "What Is Planned Obsolescence?",
    "publisher": "Investopedia",
@@ -468,7 +492,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "forty",
+   "id": 42,
    "author": "United Nations",
    "title": "UN report: Time to seize opportunity, tackle challenge of e-waste",
    "publisher": "United Nations Environmental Programme",
@@ -480,7 +504,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "forty-one",
+   "id": 43,
    "author": "Ben Schoon",
    "title": "Google made an actual product graveyard for Halloween w/ G+, Reader, more",
    "publisher": "9to5google",
@@ -492,19 +516,19 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "forty-two",
+   "id": 44,
    "author": "",
    "title": "The Google Cemetery",
    "publisher": "gcemetery",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://gcemetery.co/page/12/",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "forty-three",
+   "id": 45,
    "author": "Tim Anderson",
    "title": "Supporting Internet Explorer is hell': Web developers identify top needs – new survey",
    "publisher": "The Register",
@@ -516,19 +540,19 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "forty-four",
+   "id": 46,
    "author": "",
    "title": "Internet Explorer 11",
    "publisher": "Wikipedia",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://en.wikipedia.org/wiki/Internet_Explorer_11",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "forty-five",
+   "id": 47,
    "author": "Tom Warren",
    "title": "Microsoft will bid farewell to Internet Explorer and legacy Edge in 2021",
    "publisher": "The Verge",
@@ -540,19 +564,19 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "forty-six",
+   "id": 48,
    "author": "",
    "title": "U.S. V. Microsoft: Proposed Findings of Fact",
    "publisher": "The United States Department of Justice",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://www.justice.gov/atr/us-v-microsoft-proposed-findings-fact-1",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "forty-seven",
+   "id": 49,
    "author": "Vijay",
    "title": "What computer/laptop do big tech companies give to their engineers and programmers",
    "publisher": "Techworm",
@@ -564,19 +588,19 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "forty-eight",
+   "id": 50,
    "author": "",
    "title": "ThinkPad W series",
    "publisher": "Wikipedia",
    "date": "",
-   "year": null,
+   "year": "",
    "link": "https://en.wikipedia.org/wiki/ThinkPad_W_series#:~:text=One%20white%20ThinkLight-,W530,to%20the%20prior%20W%20models.",
    "place": "",
    "page": "",
    "dissertation": ""
  },
  {
-   "id": "forty-nine",
+   "id": 51,
    "author": "Avram Piltch",
    "title": "Lenovo ThinkPad W530 Review",
    "publisher": "Laptop Mag",
@@ -588,7 +612,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty",
+   "id": 52,
    "author": "Navck",
    "title": "Re: How long does it take you to charge your battery?",
    "publisher": "thinkpads.com",
@@ -600,7 +624,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-one",
+   "id": 53,
    "author": "Avram Piltch",
    "title": "Lenovo ThinkPad W530 Review",
    "publisher": "Laptop Mag",
@@ -612,7 +636,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-two",
+   "id": 54,
    "author": "Department for Business, Energy & Industrial Strategy",
    "title": "2018 UK Greenhouse\nGas Emissions, Provisional Figures",
    "publisher": "Department for Business, Energy & Industrial Strategy",
@@ -624,7 +648,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-three",
+   "id": 55,
    "author": "Asim Hussain, Manifesto",
    "title": "LCAW 2020: The environmental impact of the digital industry",
    "publisher": "Youtube",
@@ -636,7 +660,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-four",
+   "id": 56,
    "author": "Evan Wallace",
    "title": "WebAssembly cut Figma's load time by 3x",
    "publisher": "Figma",
@@ -648,7 +672,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-five",
+   "id": 57,
    "author": "Tom Greenwood, Manifesto",
    "title": "LCAW 2020: The environmental impact of the digital industry",
    "publisher": "Youtube",
@@ -660,7 +684,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-six",
+   "id": 58,
    "author": "Mark Hayes",
    "title": "Home Shopify Blog 10 Must Know Image Optimization Tips\n10 Must Know Image Optimization Tips",
    "publisher": "Shopify",
@@ -672,7 +696,7 @@ const referencesData = [
    "dissertation": ""
  },
  {
-   "id": "fifty-seven",
+   "id": 59,
    "author": "Laurent Devernay",
    "title": "How to Audit your website on a budget",
    "publisher": "sustainable.dev",

@@ -13,10 +13,46 @@
         width: 100vw !important;
     }
 
+    .navItemContainer {
+
+        border-bottom: 0.5px solid #2e3335;
+        padding: 16px 0;
+
+        &.first {
+            border-top: 0.5px solid #2e3335;
+        }
+
+        .navItemsButton {
+            padding: 8px 8px 8px 16px;
+
+            text-decoration: none;
+            color: #435056;
+            display: block;
+            transition: 0.3s;
+            min-width: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .chevron {
+                transform: rotate(0deg);
+            }
+
+            &.active .chevron {
+                transform: rotate(270deg)!important;
+            }
+        }
+
+        .navItemsToggle:hover {
+            cursor: pointer;
+        }
+    }
+
+
     a {
-        padding: 8px 8px 8px 52px;
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
-        color: $offwhite;
+        color: #435056;
         display: block;
         transition: 0.3s;
         min-width: 200px;
@@ -58,6 +94,10 @@
     padding: 16px;
     padding-right: 8px;
 
+    img {
+        width: 195px;
+    }
+
     @include phone {
         img {
             width: 80vw;
@@ -69,4 +109,3 @@
     display: flex;
     flex-direction: row;
 }
-

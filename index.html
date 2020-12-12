@@ -10,23 +10,31 @@
 </head>
 
 <body>
-    <div id="mySidenav" class="sidenav" style="width: 300px;">
+    <div id="mySidenav" class="sidenav" style="width: 265px;">
         <div class="sidenav-heading">
             <div class="logo"><img src="pix/textlogo.svg" alt=""></div>
             <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">
                 <img src="pix/burgerclose.svg" alt="Close side navigation">
             </a>
         </div>
-        <a href="#introduction">Introduction</a>
-        <a href="#climate">What is climate change?</a>
-        <a href="#cloud">Cloud Computing</a>
-        <a href="#code">Coding Languages</a>
-        <a href="#carbon">Embodied Carbon</a>
-        <a href="#obsolescence">Planned Obsolescence</a>
-        <a href="#conclusion">Conclusion</a>
-        <div class="reference-container"></div>
+        <div class="navItemContainer first">
+            <div type="button" class="navItemsToggle navItemsButton active"><span>Tech Sector vs. Planet </span><img class="chevron" src="pix/toggle-close.svg" alt=""></div>
+            <div class="navItems" style="display: block;">
+                <a href="#introduction">Introduction</a>
+                <a href="#climate">What is climate change?</a>
+                <a href="#cloud">Cloud Computing</a>
+                <a href="#code">Coding Languages</a>
+                <a href="#carbon">Embodied Carbon</a>
+                <a href="#obsolescence">Planned Obsolescence</a>
+                <a href="#conclusion">Conclusion</a>
+            </div>
+        </div>
+        <div class="navItemContainer">
+            <div class="navItemsButton"><span>Source</span><span >Hide</span></div>
+            <div class="reference-container"></div>
+        </div>
     </div>
-    <div id="main" style="margin-left: 300px;">
+    <div id="main" style="margin-left: 265px;">
         <div class="topnav">
             <span id="openbtn" style="cursor:pointer" onclick="openNav()">
                 <img src="pix/burger.svg" alt="Open side navigation">
@@ -46,10 +54,10 @@
                 </div>
                 <div class="tabcontent border-top" style="display: block;">
                     <p>
-                        As the backbone of the information age, the tech sector has been growing exponentially. Unfortunately, it could be argued that the time and money we save in this current moment is stolen from our futures. Our daily activities produce greenhouse gases in such vast amounts that future generations of humans may not survive. If we continue living this way by 2030, <span class="underline"> “we will be in a position where we set off an irreversible chain reaction beyond human control, that will most likely lead to the end of our civilisation as we know it.”<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'one')">1</a></span>
+                        As the backbone of the information age, the tech sector has been growing exponentially. Unfortunately, it could be argued that the time and money we save in this current moment is stolen from our futures. Our daily activities produce greenhouse gases in such vast amounts that future generations of humans may not survive. If we continue living this way by 2030, <span class="underline"> “we will be in a position where we set off an irreversible chain reaction beyond human control, that will most likely lead to the end of our civilisation as we know it.”<a class="footnote"></a></span>
                     </p>
                     <p>
-                        This research aims to identify the impact of the tech sector on our planet and establish the most sustainable digital practices in 2020. To do this, it analyses software used by prominent <span class="highlight">Belfast based tech companies</span>. This data was gathered through a surveymonkey questionnaire, broken down into 9 main categories of tool use case. The questionnaire was completed by 32 companies from a list of Northern Ireland based companies with designers<a href="#conclusion"><sup>[5]</sup></a>, crowdsourced by members of popular Slack group, NI Design Chat. Results were rounded to the nearest 0.5%.
+                        This research aims to identify the impact of the tech sector on our planet and establish the most sustainable digital practices in 2020. To do this, it analyses software used by prominent <span class="highlight">Belfast based tech companies</span>. This data was gathered through a surveymonkey questionnaire, broken down into 9 main categories of tool use case. The questionnaire was completed by 32 companies from a list of Northern Ireland based companies with designers<a class="footnote"></a>, crowdsourced by members of popular Slack group, NI Design Chat. Results were rounded to the nearest 0.5%.
                     </p>
                     <p>
                         Among those answering were employees of: Niice, Little Thunder, Dawson Andrews, Kainos, Deloitte, Whitespace, Instil, Big Motive, Synergy Learning, and PWC.
@@ -83,19 +91,18 @@
                     <p>
                     </p>
                     <p>
-                        "The earth has experienced five mass extinctions prior to the one we are currently living though now, each so complete a wiping of the fossil fuel record that it functioned as an evolutionary reset" <sup>1</sup>. It’s like we’re at level 99 of a game. Think of greenhouse gases as expansion packs. If we continue adding them at the rate we have been over the past 80 years, the climate will force us to go back to level 1.
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'two')">2</a>
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'three')">3</a>
+                        "The earth has experienced five mass extinctions prior to the one we are currently living though now, each so complete a wiping of the fossil fuel record that it functioned as an evolutionary reset" <a class="footnote"></a>. It’s like we’re at level 99 of a game. Think of greenhouse gases as expansion packs. If we continue adding them at the rate we have been over the past 80 years, the climate will force us to go back to level 1.
+                        <a class="footnote"></a>
+                        <a class="footnote"></a>
                         The earth will go on: we will die.
                     </p>
                     <p>
                         To put it succinctly, global warming occurs when the sun's heat energy cannot escape the earth's atmosphere. The earth is forced to change this energy into another form of energy: this is how weather patterns are created. Some of this energy goes back out into space through the energy escape hatch, but this hatch is becoming increasingly blocked by greenhouse gases. As more and more heat is trapped, weather patterns get more and more extreme.
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'four')">4</a>
-                        
+                        <a class="footnote"></a>
                     </p>
                     <p>
-                        If we raise global temperature by 1.5C by 2030, “we will be in a position where we set off an irreversible chain reaction beyond human control, that will most likely lead to the end of our civilisation as we know it.” 
-<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'five')">5</a>
+                        If we raise global temperature by 1.5C by 2030, “we will be in a position where we set off an irreversible chain reaction beyond human control, that will most likely lead to the end of our civilisation as we know it.”
+                        <a class="footnote"></a>
                     </p>
                     <p>
                         We will die from starvation. We will die from asphyxiation. We will perish in fires. We will drown in floods.
@@ -112,25 +119,25 @@
                         In fact, we hold the solutions to these problems in our hands.
                     </p>
                     <p>
-                        To avoid the chain reaction of doomsday scenarios set off by more than 1.5 degrees of warming, we must put an immediate stop to greenhouse gas emissions 
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'six')">6</a>
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'seven')">7</a>
+                        To avoid the chain reaction of doomsday scenarios set off by more than 1.5 degrees of warming, we must put an immediate stop to greenhouse gas emissions
+                        <a class="footnote"></a>
+                        <a class="footnote"></a>
                     </p>
                     <p>
                         This doesn’t mean we need to stop driving, developing our world or exchanging goods. We must restructure our world around sustainability.
                     </p>
                     <p>
-                        “Sustainability is most often defined as meeting the needs of the present without compromising the ability of future generations to meet their needs. It has three main pillars: economic, environmental, and social. These 3 pillars are informally referred to as people, planet and profits.” 
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'eight')">8</a>
+                        “Sustainability is most often defined as meeting the needs of the present without compromising the ability of future generations to meet their needs. It has three main pillars: economic, environmental, and social. These 3 pillars are informally referred to as people, planet and profits.”
+                        <a class="footnote"></a>
                     </p>
                     <p>
-                        Spearheaded by Greta Thunberg, many people around the world have been calling for big companies to stop processes which will inevitably lead to climate collapse. As a result, sustainability has ascended to the top of priority lists of corporate giants such as Walmart, McDonalds and Google<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'nine')">9</a>. The aim is to reach a near perfect equilibrium across all 3 pillars.
+                        Spearheaded by Greta Thunberg, many people around the world have been calling for big companies to stop processes which will inevitably lead to climate collapse. As a result, sustainability has ascended to the top of priority lists of corporate giants such as Walmart, McDonalds and Google<a class="footnote"></a>. The aim is to reach a near perfect equilibrium across all 3 pillars.
                     </p>
                     <p>
                         In 2020 alone, the tech sector contributed an outrageous 3.6% to global greenhouse gas pollution.
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'ten')">10</a>
-                         That number appears deceptively low and may suggest the tech sector does not have responsibility in this area. However, this figure is equal to the amount of greenhouse gas pollution produced by fuel from the aviation industry - an industry which is often cited as one of the most environmentally problematic. In a worst case scenario this figure could rise to 14% by 2040. 
-                         <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'eleven')">11</a>
+                        <a class="footnote"></a>
+                        That number appears deceptively low and may suggest the tech sector does not have responsibility in this area. However, this figure is equal to the amount of greenhouse gas pollution produced by fuel from the aviation industry - an industry which is often cited as one of the most environmentally problematic. In a worst case scenario this figure could rise to 14% by 2040.
+                        <a class="footnote"></a>
                     </p>
                     <p>
                         In order for the tech industry to enforce the environmental pillar, the research in the following sections aims to establish the contribution of the tech industry to global warming through the lens of carbon emissions.
@@ -150,25 +157,25 @@
                 </div>
                 <div id="cc-issues" class="tabcontent tabcontent-cc" style="display: block;">
                     <p>
-                        Today, cloud computing forms the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.” 
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twelve')">12</a>
-                        Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirteen')">13</a>
-                         Today, there are approximately 500 data centers which store our information. 
-                         <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fourteen')">14</a>
+                        Today, cloud computing forms the very basis of the internet. “Cloud Computing is the practice of using a network of remote servers to store, manage, and process data.”
+                        <a class="footnote"></a>
+                        Every time we query google or reply to a message in Slack we download and upload information to servers around the world, a process known as “data transfer”. This information is computed in a data center, defined as “a large group of networked computer servers” <a class="footnote"></a>
+                        Today, there are approximately 500 data centers which store our information.
+                        <a class="footnote"></a>
                     </p>
                     <p>
                         Although data centers are branded as “the cloud”, they are not metaphysical bodies in the stratosphere. When we save data to the cloud, it is in fact transferred to very physical data centers.
                     </p>
                     <p>
-                        In 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifteen')">15</a>An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m<sup>2</sup> large - packed with physical servers. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'sixteen')">16</a> That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning.
+                        In 2019 it was estimated across all data centers we are storing 10–50 zettabytes of data. “A zettabyte is a measure of storage capacity, which equals 1000⁷ (1,000,000,000,000,000,000,000 bytes). By 2025 this is estimated to grow to the range of 150–200 zettabytes.” <a class="footnote"></a>An Atlanta based hyperscale data farm owned by H5 Data Centers, is nearly 186,000m<sup>2</sup> large - packed with physical servers. <a class="footnote"></a> That’s nearly 35 football fields of servers. This is precisely what makes the 150–200 zettabytes so concerning.
                     </p>
                     <p>
                         Harnessing immense computational power, data centers consume colossal amounts of electricity. Moreover, when we transfer data it travels through a network of cables, once again powered by electricity. This electricity is derived from the power grid.
                     </p>
                     <p>
-                        The entire infrastructure of technology relies on the power grid. “The power grid is a network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.”<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'seventeen')">17</a>Between July 2019 and June 2020, Northern Ireland consumed 7,505 Gigawatt hours (GWh) of electricity. 52.3% (3928 GWh) of this electricity came from fossil fuels.
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'eighteen')">18</a>
-                        Fossil fuels produce carbon when they are burned. 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO<sub>2</sub>.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'nineteen')">19</a>Establishing exactly how much electricity the internet uses is an impossible task, but for this example we will use the 2% of global electricity usage figure from the 2020 IEA report <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty')">20</a>
+                        The entire infrastructure of technology relies on the power grid. “The power grid is a network of power lines and associated equipment used to transmit and distribute electricity over a geographic area.”<a class="footnote"></a>Between July 2019 and June 2020, Northern Ireland consumed 7,505 Gigawatt hours (GWh) of electricity. 52.3% (3928 GWh) of this electricity came from fossil fuels.
+                        <a class="footnote"></a>
+                        Fossil fuels produce carbon when they are burned. 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO<sub>2</sub>.<a class="footnote"></a>Establishing exactly how much electricity the internet uses is an impossible task, but for this example we will use the 2% of global electricity usage figure from the 2020 IEA report. <a class="footnote"></a>
                     </p>
                     <p>
                         NI internet related electricity usage: 2% of 7,505 GWh = 150.1 GWh
@@ -185,8 +192,11 @@
                     <p>
                         In order to lower carbon emissions significantly, we must take a look at how and why we use cloud computing.
                     </p>
+                </div>
+
+                <div id="cc-pr" class="tabcontent tabcontent-cc">
                     <p>
-                        Solution 1: Stop gathering unstructured data<br><br>“Unstructured data is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.” According to market research company IDC, 90% of unstructured data is never analysed. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-one')">21</a> This data is stored in server farms, using up electricity every hour of every day of every year until it is disposed of.
+                        Solution 1: Stop gathering unstructured data<br><br>“Unstructured data is information that either does not have a pre-defined data model or is not organized in a pre-defined manner.” According to market research company IDC, 90% of unstructured data is never analysed. <a class="footnote"></a> This data is stored in server farms, using up electricity every hour of every day of every year until it is disposed of.
                     </p>
                     <p>
                         100% of the survey respondents said their company uses Google Analytics. 14% said they use Hotjar and 9% of businesses use Salesforce. All these tools contribute to the creation of unstructured trash data.
@@ -198,16 +208,16 @@
                         Tools like Google Docs, Notion and Slack automatically store data in the cloud make us feel as if we aren’t producing digital garbage every second.
                     </p>
                     <p>
-                        Inspecting network downloads/uploads using the process monitoring tool<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-two')">22</a>, we can determine in this session Chrome, Notion & Slack had the highest rate of data transfers. 87.5% of companies use Slack. 22.5% of companies use Notion.
+                        Inspecting network downloads/uploads using the process monitoring tool<a class="footnote"></a>, we can determine in this session Chrome, Notion & Slack had the highest rate of data transfers. 87.5% of companies use Slack. 22.5% of companies use Notion.
                     </p>
                     <p>
-                        According to a test using network monitoring software <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-three')">23</a>, all of the above apps transfer data to farms located in Kansas and Los Angeles.
+                        According to a test using network monitoring software <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> <a class="footnote"></a>, all of the above apps transfer data to farms located in Kansas and Los Angeles.
                     </p>
                     <p>
                         I used Notion to create a wiki for this dissertation. The wiki was comprised of links, text and roughly 20 images. I exported the data and found I’d generated 7.2MB in 1 week . In contrast to the link based wiki, Gerry McGovern’s book, “World Wide Waste” which covers this topic in much more depth weighs only 348 KB. Moreover, it isn’t transferred back and forth between our computer and Kansas, creating unnecessary pollution.
                     </p>
                     <p>
-                        To cut out the incessant data transfer of cloud note taking apps like Notion, we can switch to products like Apple Notes or Microsoft OneNote which give us the option to opt out of cloud storage. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-four')">24</a>
+                        To cut out the incessant data transfer of cloud note taking apps like Notion, we can switch to products like Apple Notes or Microsoft OneNote which give us the option to opt out of cloud storage. <a class="footnote"></a>
                     </p>
                     <p>
                         The same logic can be applied to storing and creating data using the Google Suite. While Google data centers are powered by renewable energy, when we transfer data, carbon is still generated in the power grid. 75% of Belfast based companies use Google Docs, 55% Google Sheets, 55% Google Slides and 13% Forms.
@@ -222,23 +232,15 @@
                         Another step we can take is using Creative Cloud offline. 39% of Belfast based companies use Illustrator, 23% use AfterEffects and 19% use Photoshop. All Adobe Software is installed locally, however it automatically runs Creative Cloud in the background. Using Activity Monitor once again, we can determine Creative Cloud and it’s counterparts were among the most power and network hungry processes during that session. While .psd & .ai files are very large, they become much smaller once exported.
                     </p>
                     <p>
-                        To avoid this transfer of information, we can store working files locally, and share compressed .jpg or .svg <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-five')">25</a>files with our team only when necessary.
+                        To avoid this transfer of information, we can store working files locally, and share compressed .jpg or .svg <a class="footnote"></a>files with our team only when necessary.
                     </p>
                 </div>
                 <div id="cc-actions" class="tabcontent tabcontent-cc">
                     <label class="container">Stop gathering unstructured data
-                        <input type="checkbox" checked="checked">
+                        <input type="checkbox" >
                         <span class="checkmark"></span>
                     </label>
                     <label class="container">Stop using tools which automatically transfer data
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Three
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Four
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
@@ -256,21 +258,21 @@
                 </div>
                 <div class="tab">
                     <button class="tablinks active" onclick="openCity(event, 'cl-issues', 'cl')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'cl-pr', 'cl')">Pull Requests<span class="notification bad">2</span></button>
-                    <button class="tablinks" onclick="openCity(event, 'cl-actions', 'cl')">Actions<span class="notification good">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'cl-pr', 'cl')">Pull Requests<span class="notification bad">1</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'cl-actions', 'cl')">Actions<span class="notification good">1</span></button>
                 </div>
                 <div id="cl-issues" class="tabcontent tabcontent-cl" style="display: block;">
                     <p>
                         So far we have covered the data we store in our applications’ databases and that which we gather with regard to application usage. What about the actual applications? Today, most applications are built on top of a framework.
                     </p>
                     <p>
-                        39% of all websites are developed on top of Wordpress. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-six')">26</a>Wordpress relies on PHP, a backend language which combines content received through an API with HTML, then sends this information to our browser. This process repeats every time we load in a page. Etsy.com is one example of such a website. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-seven')">27</a>
+                        39% of all websites are developed on top of Wordpress.<a class="footnote"></a>Wordpress relies on PHP, a backend language which combines content received through an API with HTML, then sends this information to our browser. This process repeats every time we load in a page. Etsy.com is one example of such a website.<a class="footnote"></a>
                     </p>
                     <p>
-                        Every time we request a new page on Etsy, the entire DOM for that specific page is fetched and downloaded from the server. Availing of Google Chrome plugin <a href="https://chrome.google.com/webstore/detail/data-usage/dopfdeikfpadofngjnjokfgmboicnppc/related?hl=en-GB">Data Usage</a> <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-eight')">28</a>, I took measurements for 4 pages to establish how much data is transferred per download. The results were 2mb, 2mb, 4mb, 1mb.
+                        Every time we request a new page on Etsy, the entire DOM for that specific page is fetched and downloaded from the server. Availing of Google Chrome plugin <a href="https://chrome.google.com/webstore/detail/data-usage/dopfdeikfpadofngjnjokfgmboicnppc/related?hl=en-GB">Data Usage</a> <a class="footnote"></a>, I took measurements for 4 pages to establish how much data is transferred per download. The results were 2mb, 2mb, 4mb, 1mb.
                     </p>
                     <p>
-                        This makes the average Etsy page 2.25 MB. According to similarweb.com<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'twenty-nine')">29</a>, in the last 6 months Etsy got 358,880,000 visits. Visitors viewed 6.6 pages per visit. This means some 5,329,368,000 MB were transferred between Etsy’s hosting provider and it’s users. <br><br>(6.6 pages x 2.25 MB) x 358,880,000 visits = 5,329,368,000 MB = 5,329,368 GB
+                        This makes the average Etsy page 2.25 MB. According to similarweb.com<a class="footnote"></a>, in the last 6 months Etsy got 358,880,000 visits. Visitors viewed 6.6 pages per visit. This means some 5,329,368,000 MB were transferred between Etsy’s hosting provider and it’s users. <br><br>(6.6 pages x 2.25 MB) x 358,880,000 visits = 5,329,368,000 MB = 5,329,368 GB
                     </p>
                     <p>
                         In World Wide Waste, Gerry McGovern estimates that the transfer of one gigabyte (GB) of data requires about 0.015 kWh of electricity and causes 0.0042 kg of CO2 pollution. Using this methodology, we can establish Etsy produces 22383.35 kg CO<sup>2</sup>Eq in 6 months.<br><br>5,329,368 GB x 0.0042 kg CO<sup>2</sup>Eq = 22383.35 kg CO<sup>2</sup>Eq = 22.38 tonnes CO<sup>2</sup>Eq
@@ -279,29 +281,21 @@
                         There are currently 1,000,000,000 websites on the internet. If 39% are made using Wordpress, there are 390,000,000 Wordpress sites. If all of them were as popular as Etsy, we would be producing 8,728,200,000 tonnes CO<sup>2</sup>Eq in 6 months.
                     </p>
                     <p>
-                        39% of 1 billion websites = 390,000,000 Worpress websites<br><br>390,000,000 Worpress websites x 22.38 tonnes CO<sup>2</sup>Eq = 8,728,200,000 tonnes CO<sup>2</sup>Eq <br><br>Solution: Choose an energy efficient framework
+                        39% of 1 billion websites = 390,000,000 Worpress websites<br><br>390,000,000 Worpress websites x 22.38 tonnes CO<sup>2</sup>Eq = 8,728,200,000 tonnes CO<sup>2</sup>Eq <br><br>
                     </p>
+                    
+                </div>
+                <div id="cl-pr" class="tabcontent tabcontent-cl">
+                    <h5>Solution: Choose an energy efficient framework</h5>
                     <p>
-                        React.js is an increasingly popular framework. In most cases this language renders html pages server side. The key difference between react and php applications, is that PHP applications render page by page on a request basis, while react sends code for the entire application on the initial request. When we navigate to a new page, the react application populates content data by contacting a backend API, but the bones of the website stay in place from the initial download. Reddit is one example of an application which uses this technology.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty')">30</a>Using the same methodology as the previous framework example, the download sizes of 4 Reddit pages were 637KB, 419KB, 11KB and 22KB. This makes the average Reddit page 0.27225MB.
+                        React.js is an increasingly popular framework. In most cases this language renders html pages server side. The key difference between react and php applications, is that PHP applications render page by page on a request basis, while react sends code for the entire application on the initial request. When we navigate to a new page, the react application populates content data by contacting a backend API, but the bones of the website stay in place from the initial download. Reddit is one example of an application which uses this technology.<a class="footnote"></a>Using the same methodology as the previous framework example, the download sizes of 4 Reddit pages were 637KB, 419KB, 11KB and 22KB. This makes the average Reddit page 0.27225MB.
                     </p>
                     <p>
                         Comparing this to Etsy’s 2.25MB average, we can conclude the amount of data transferred on average by react based Reddit, is 10 times smaller than PHP based Etsy. If less data is transferred, less electricity is used and in turn, less carbon is emitted. This makes react a much more environmentally friendly framework.
                     </p>
                 </div>
                 <div id="cl-actions" class="tabcontent tabcontent-cl">
-                    <label class="container">Stop gathering unstructured data
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Stop using tools which automatically transfer data
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Three
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Four
+                    <label class="container">Choose an energy efficient framework
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
@@ -315,45 +309,42 @@
                 </div>
                 <div class="tab">
                     <button class="tablinks active" onclick="openCity(event, 'ec-issues', 'ec')">Issues</button>
-                    <button class="tablinks" onclick="openCity(event, 'ec-pr', 'ec')">Pull Requests<span class="notification bad">2</span></button>
-                    <button class="tablinks" onclick="openCity(event, 'ec-actions', 'ec')">Actions<span class="notification good">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'ec-pr', 'ec')">Pull Requests<span class="notification bad">1</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'ec-actions', 'ec')">Actions<span class="notification good">1</span></button>
                 </div>
                 <div id="ec-issues" class="tabcontent tabcontent-ec" style="display: block;">
                     <p>
-                        Section 2 established that data centers produce carbon through electricity consumption, but that is not the end. Another complication with data centers is the hardware they use; namely, servers. On average, servers are replaced every 3 years. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-one')">31</a>
+                        Section 2 established that data centers produce carbon through electricity consumption, but that is not the end. Another complication with data centers is the hardware they use; namely, servers. On average, servers are replaced every 3 years.<a class="footnote"></a>
                     </p>
                     <p>
-                        When we manufacture a product, it holds embodied carbon until it is disposed of. “Embodied carbon is the total greenhouse gas emissions generated to produce a built asset.” <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-two')">32</a> To study this effect in terms of servers, the 2019 R640 Dell Server<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-three')">31</a> will be used as an example. It takes 1283kg CO<sub>2</sub>eq to manufacture this server. It has a lifespan of 4 years, so theoretically it emits 320kg CO<sub>2</sub>eq every year. <br><br>1283kg CO<sub>2</sub>eq / 4 years = 320kg CO<sub>2</sub>eq emitted per year
+                        When we manufacture a product, it holds embodied carbon until it is disposed of. “Embodied carbon is the total greenhouse gas emissions generated to produce a built asset.”<a class="footnote"></a> To study this effect in terms of servers, the 2019 R640 Dell Server <a class="footnote"></a>will be used as an example. It takes 1283kg CO<sub>2</sub>eq to manufacture this server. It has a lifespan of 4 years, so theoretically it emits 320kg CO<sub>2</sub>eq every year. <br><br>1283kg CO<sub>2</sub>eq / 4 years = 320kg CO<sub>2</sub>eq emitted per year
                     </p>
                     <p>
-                        It’s also expected to consume 1760.3 kWh/year. The average carbon intensity in the EU is 0.276 kg CO<sub>2</sub>eq/kWh. The total carbon cost is going to be 805 kg CO<sub>2</sub>eq/year.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-four')">34</a>
-
+                        It’s also expected to consume 1760.3 kWh/year. The average carbon intensity in the EU is 0.276 kg CO<sub>2</sub>eq/kWh. The total carbon cost is going to be 805 kg CO<sub>2</sub>eq/year.<a class="footnote"></a>
                         <br><br>
-
-                        320 CO<sub>2</sub>eq + (0.276 kg CO<sub>2</sub>eq/kWh * 1760.3kWh/year) = 805 kg CO<sub>2</sub>eq/year. 
-
+                        320 CO<sub>2</sub>eq + (0.276 kg CO<sub>2</sub>eq/kWh * 1760.3kWh/year) = 805 kg CO<sub>2</sub>eq/year.
                         <br><br>
-
-                        If we kept this server for 5 years instead of 4, it would have an embodied carbon cost of 257kg CO<sub>2</sub>eq, meaning it would emit 743kg CO<sub>2</sub>eq/year. 
-
+                        If we kept this server for 5 years instead of 4, it would have an embodied carbon cost of 257kg CO<sub>2</sub>eq, meaning it would emit 743kg CO<sub>2</sub>eq/year.
                         <br><br>
-
                         257 CO<sub>2</sub>eq + (0.276 kg CO<sub>2</sub>eq/kWh * 1760.3kWh/year) = 743kg CO<sub>2</sub>eq/year.
                     </p>
                     <p>
-                        Amazon Web Services (AWS) is one of the most popular web hosts in the world. Suppose AWS has 1.3 million servers <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-five')">35</a>
-
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-six')">36</a>and they are all the 2019 R640 Dell Server. Kept for 4 years, they emit a collective 4,186,000,000kg CO<sub>2</sub>eq. Kept for 5 years, in 4 years they emit 3,863,600,000 kg CO<sub>2</sub>eq. That’s 322,400,000 kg CO<sub>2</sub>eq less.<br><br>(805 CO<sub>2</sub>eq * 4 years) * 1,300,000 servers = 4,186,000,000 kg CO<sub>2</sub>eq
+                        Amazon Web Services (AWS) is one of the most popular web hosts in the world. Suppose AWS has 1.3 million servers<a class="footnote"></a>
+                        <a class="footnote"></a>and they are all the 2019 R640 Dell Server. Kept for 4 years, they emit a collective 4,186,000,000kg CO<sub>2</sub>eq. Kept for 5 years, in 4 years they emit 3,863,600,000 kg CO<sub>2</sub>eq. That’s 322,400,000 kg CO<sub>2</sub>eq less.<br><br>(805 CO<sub>2</sub>eq * 4 years) * 1,300,000 servers = 4,186,000,000 kg CO<sub>2</sub>eq
                     </p>
                     <p>
-                        (743 CO<sub>2</sub>eq * 4 years) * 1,300,000 servers = 3,863,600,000 kg CO<sub>2</sub>eq<br><br> 4,186,000,000 kg CO<sub>2</sub>eq - 3,863,600,000 kg CO<sub>2</sub>eq = 322,400,000 kg CO<sub>2</sub>eq<br><br>Solution: Choose a Green Host
+                        (743 CO<sub>2</sub>eq * 4 years) * 1,300,000 servers = 3,863,600,000 kg CO<sub>2</sub>eq<br><br> 4,186,000,000 kg CO<sub>2</sub>eq - 3,863,600,000 kg CO<sub>2</sub>eq = 322,400,000 kg CO<sub>2</sub>eq<br><br>
                     </p>
+                    
+                </div>
+                <div id="ec-pr" class="tabcontent tabcontent-ec">
+                    <p>Solution: Choose a Green Host</p>
                     <p>
                         Unless we work in a data center or for a server manufacturing company, we can’t control the amount of carbon embodied in the devices which hold our data. However, we can control whether we host with companies whose data centers emit CO<sub>2</sub> .
                     </p>
                     <p>
                         AWS is used by 63% of Belfast based companies. AWS data centers are powered by renewable energy in only 4 regions. In other regions, it is estimated only 30%-50% of the energy which powers these centers is renewable.
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-seven')">37</a>
+                        <a class="footnote"></a>
                     </p>
                     <p>
                         Google Cloud is used by 16% of Belfast based companies, and Azure by 5%. Both of these companies qualify as green hosts, meaning they use renewable energy or offset their emissions. As previously calculated, in a hypothetical scenario, AWS could produce 4,186,000,000 kg CO<sub>2</sub>eq in 4 years. If every company which relies on AWS switched to Google or Azure, that number would be 1283kg CO<sub>2</sub>eq, accounting only for the embodied carbon stored in the physical server.
@@ -363,19 +354,7 @@
                     </p>
                 </div>
                 <div id="ec-actions" class="tabcontent tabcontent-ec">
-                    <label class="container">Stop gathering unstructured data
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Stop using tools which automatically transfer data
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Three
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Four
+                    <label class="container">Choose a Greenhost
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
@@ -390,29 +369,28 @@
                 <div class="tab">
                     <button class="tablinks active" onclick="openCity(event, 'po-issues', 'po')">Issues</button>
                     <button class="tablinks" onclick="openCity(event, 'po-pr', 'po')">Pull Requests<span class="notification bad">2</span></button>
-                    <button class="tablinks" onclick="openCity(event, 'po-actions', 'po')">Actions<span class="notification good">2</span></button>
+                    <button class="tablinks" onclick="openCity(event, 'po-actions', 'po')">Actions<span class="notification good">6</span></button>
                 </div>
                 <div id="po-issues" class="tabcontent tabcontent-po" style="display: block;">
                     <p>
-                        It is becoming increasingly evident that tech manufacturing companies produce assets with a fixed term shelf life. Moore's Law states “the number of transistors on a microchip doubles every two years, though the cost of computers is halved.” <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-eight')">38</a> This means that every 2 years computers become twice as fast, while their cost is cut in half. The side effect of these exponential advancements is planned obsolescence. “Planned obsolescence describes a strategy of deliberately ensuring that the current version of a given product will become out of date or useless within a known time period.” <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'thirty-nine')">39</a> As of 2019, 50 tonnes of electric device waste were produced annually. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty')">40</a>This is the result of planned obsolescence.
+                        It is becoming increasingly evident that tech manufacturing companies produce assets with a fixed term shelf life. Moore's Law states “the number of transistors on a microchip doubles every two years, though the cost of computers is halved.” <a class="footnote"></a> This means that every 2 years computers become twice as fast, while their cost is cut in half. The side effect of these exponential advancements is planned obsolescence. “Planned obsolescence describes a strategy of deliberately ensuring that the current version of a given product will become out of date or useless within a known time period.” <a class="footnote"></a> As of 2019, 50 tonnes of electric device waste were produced annually.<a class="footnote"></a> This is the result of planned obsolescence.
                     </p>
                     <p>
-                        Planned obsolescence does not stop at hardware. On the contrary, the effect is crystal clear in software development too. Tactics like agile development, sprints and iteration force us to sink more time, energy and electricity to develop minimum viable products round the clock.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-one')">41</a>
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-two')">42</a>
+                        Planned obsolescence does not stop at hardware. On the contrary, the effect is crystal clear in software development too. Tactics like agile development, sprints and iteration force us to sink more time, energy and electricity to develop minimum viable products round the clock.<a class="footnote"></a><a class="footnote"></a>
                         We create products we scrap with little foresight, financial gain being the only performance indicator.
                     </p>
                     <p>
-                        One example is Internet Explorer 11 (IE11). Supporting software in IE11 is a running joke amongst developers. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-three')">43</a> The browser is outdated and doesn’t support a lot of essential contemporary functionality. This is concerning, because IE was released only 7 years ago, on October 17, 2013.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-four')">44</a> In 2021, it is becoming deprecated.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-five')">45</a>That’s a lifespan of only 8 years.
+                        One example is Internet Explorer 11 (IE11). Supporting software in IE11 is a running joke amongst developers.<a class="footnote"></a> The browser is outdated and doesn’t support a lot of essential contemporary functionality. This is concerning, because IE was released only 7 years ago, on October 17, 2013.<a class="footnote"></a> In 2021, it is becoming deprecated.<a class="footnote"></a> That’s a lifespan of only 8 years.
                     </p>
                     <p>
                         Behind every product there are hours of work and gigawatts of power. When we kill IE, what are we really putting a line through?
                     </p>
                     <p>
-                        It is estimated that 1000+ developers <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-six')">46</a>worked on IE11. Let’s assume each developer worked for 7 hours a day for 46 weeks. That’s 1.6 million hours of human life.
+                        It is estimated that 1000+ developers<a class="footnote"></a> worked on IE11. Let’s assume each developer worked for 7 hours a day for 46 weeks. That’s 1.6 million hours of human life.
                     </p>
                     <p>
-                        <br>Let’s say every employee used a Lenovo w530 laptop <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-seven')">47</a>
-                        <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-eight')">48</a>which has a battery life of 6 hours and 23 minutes <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'forty-nine')">49</a>, so it needs to be charged once a day for an average of 4 hours <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty')">50</a> at (20 V x 8.5 A = 170W) 170 watts<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-one')">51</a> 
+                        <br>Let’s say every employee used a Lenovo w530 laptop <a class="footnote"></a>
+                        <a class="footnote"></a>which has a battery life of 6 hours and 23 minutes <a class="footnote"></a>, so it needs to be charged once a day for an average of 4 hours <a class="footnote"></a> at (20 V x 8.5 A = 170W) 170 watts<a class="footnote"></a>
                     </p>
                     <p>
                         4 hours x 170 watts = 680Wh
@@ -421,11 +399,13 @@
                         680Wh x 1000 people = 680,000Wh every day.
                     </p>
                     <p>
-                        680,000Wh x 46 weeks = 31,280,000Wh<br><br>In 2018 it was estimated that 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO<sub>2</sub>.<a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-two')">52</a> If the electric grid was 100% fossil fuels at the time, that’s 13.45 tonnes of CO<sub>2</sub>. These figures account for charging the laptop alone, not including electricity needed to power all internet related activities.<br><br>31,280,000 Wh = 0.03128 GWh
+                        680,000Wh x 46 weeks = 31,280,000Wh<br><br>In 2018 it was estimated that 1 gigawatt hour of electricity produced from fossil fuels generates 430 tonnes of CO<sub>2</sub>.<a class="footnote"></a> If the electric grid was 100% fossil fuels at the time, that’s 13.45 tonnes of CO<sub>2</sub>. These figures account for charging the laptop alone, not including electricity needed to power all internet related activities.<br><br>31,280,000 Wh = 0.03128 GWh
                     </p>
                     <p>
                         0.03128 Gwh x 430 tonnes = 13.45 tonnes of CO<sub>2<br><br></sub>When we make IE obsolete, what we are really disposing of is 1.6 million workforce hours and 31,280,000 Wh of electricity. What we create instead, is a 13.45 CO<sub>2 </sub>tonne decrease in the quality of life on the only planet in the solar system which supports human life.<br><br>Solution 2: Design for longevity
                     </p>
+                </div>
+                <div id="po-pr" class="tabcontent tabcontent-po">
                     <p>
                         Unlike IE11, we want our products to withstand the test of time. How do we avoid sinking our own, as well as the earth’s resources into a product which doesn’t last?
                     </p>
@@ -433,7 +413,7 @@
                         This is a broad question far beyond sustainability. However, we can narrow it down by looking at constraints which will help us release as little carbon as possible in the process of making a web application. Designers play one of the biggest roles in shaping products, so let’s take a look at what design can do to decrease carbon emissions.
                     </p>
                     <p>
-                        “As a designer, you are the director of carbon emissions” - Asim Hussein, LCAW 2020 <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-three')">53</a> 
+                        “As a designer, you are the director of carbon emissions” - Asim Hussein, LCAW 2020<a class="footnote"></a>
                     </p>
                     <p>
                         Among the participants of the primary research questionnaire, at 52% Sketch is the most popular design software. Figma (39%) is catching up, followed by InDesign (23%), Adobe XD (16%), Abstract (13%) and Zeplin (10%) and Invision (6%).
@@ -442,13 +422,13 @@
                         Wireframes and prototypes are intended to be used only during the build process: once they have served their purpose, they will become obsolete. Thus, they fall into the category of planned obsolescence.
                     </p>
                     <p>
-                        Most of the above software stores our assets in the cloud automatically. Some of us choose to save assets locally, but once we send a link to our team or client to view or collaborate, that asset is stored in the cloud. In the same way as any other web application, this process produces CO<sub>2</sub> through the transfer of data like large images, vast amounts of text and complex code. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-four')">54</a> 
+                        Most of the above software stores our assets in the cloud automatically. Some of us choose to save assets locally, but once we send a link to our team or client to view or collaborate, that asset is stored in the cloud. In the same way as any other web application, this process produces CO<sub>2</sub> through the transfer of data like large images, vast amounts of text and complex code.<a class="footnote"></a>
                     </p>
                     <p>
-                        Instead of surrendering to popular design patterns such as the heavyweight hero banner, we can ask ourselves, “Does an image help the user achieve their goal?” If the answer is “no”, there’s a better way of filling that space: this could be white space, text, a vector graphic and beyond. By doing this, we emit less CO<sub>2</sub> in the design process as well as in the future use of the website. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-five')">55</a> 
+                        Instead of surrendering to popular design patterns such as the heavyweight hero banner, we can ask ourselves, “Does an image help the user achieve their goal?” If the answer is “no”, there’s a better way of filling that space: this could be white space, text, a vector graphic and beyond. By doing this, we emit less CO<sub>2</sub> in the design process as well as in the future use of the website.<a class="footnote"></a>
                     </p>
                     <p>
-                        If the image is necessary, we can ask ourselves what kind of image to include. In mockups, a grey placeholder with text or a vector graphic could be enough. If not, we can use an image compressor like imagecompressor.com to make the image smaller. Other tricks include making images black and white, and blurring the background to avail of pixel clustering technologies. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-six')">56</a>
+                        If the image is necessary, we can ask ourselves what kind of image to include. In mockups, a grey placeholder with text or a vector graphic could be enough. If not, we can use an image compressor like imagecompressor.com to make the image smaller. Other tricks include making images black and white, and blurring the background to avail of pixel clustering technologies.<a class="footnote"></a>
                     </p>
                     <h5>
                         Solution 2: Develop for longevity
@@ -457,7 +437,7 @@
                         Once designs are passed on for development, we can measure their impact on the planet. A solid first step is knowing the carbon footprint of what you’re working on. Developed by Wholegrain Digital, the carbon calculator is a tool which estimates how much carbon your website emits <a href="http://www.websitecarbon.com">www.websitecarbon.com</a>.
                     </p>
                     <p>
-                        Next, you can analyse the frontend of your application using the Chrome Dev Tools plugin, <a href="https://chrome.google.com/webstore/detail/greenit-analysis">GreenIT</a>. This plugin provides an Ecoindex rating as well as assessing the application’s performance against an outline of environmental best practices. <a href="javascript:void(0)" class="referenceButton" onclick="openReference(event, 'fifty-seven')">57</a>
+                        Next, you can analyse the frontend of your application using the Chrome Dev Tools plugin, <a href="https://chrome.google.com/webstore/detail/greenit-analysis">GreenIT</a>. This plugin provides an Ecoindex rating as well as assessing the application’s performance against an outline of environmental best practices.<a class="footnote"></a>
                     </p>
                     <p>
                         From a user experience point of view, you can gauge the value of your product by using Gerry McGovern’s <a href="https://gerrymcgovern.com/books/top-tasks-a-how-to-guide/">Top Tasks</a> methodology. Endorsed by Toyota and IBM, this approach helps you determine your users goals. Once these are established, you can assess how many steps it takes for a user to achieve their goal, and adjust your application so that time is as short as possible. This means your user is not fumbling around pages of your application, downloading data unnecessarily.
@@ -467,19 +447,31 @@
                     </p>
                 </div>
                 <div id="po-actions" class="tabcontent tabcontent-po">
-                    <label class="container">Stop gathering unstructured data
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container">Stop using tools which automatically transfer data
+                    <label class="container">Save assets locally
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container">Three
+                    <label class="container">Use as few images as possible
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container">Four
+                    <label class="container">Compress Images
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Calculate the amount of carbon produced by our software www.websitecarbon.com
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Audit software for environmental best practices using GreenIT
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Check the amount of data you are transferring with Data Usage
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Determine what tasks the user wants to perform on your website using Top Tasks
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
