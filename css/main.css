@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');*/
 /*COLORS*/
 .pri {
   color: #34E890;
@@ -133,11 +134,14 @@ html {
 
 .vl {
   border-left: 1px solid #464B51;
-  height: 80vh;
+  height: 1500px;
   position: absolute;
   z-index: -10;
   margin-left: 19px;
   margin-top: 36px;
+}
+.vl.last {
+  height: 200px;
 }
 
 .sidenav {
@@ -162,21 +166,16 @@ h5 {
   margin: 1rem 0;
 }
 
-.title {
-  padding: 2rem 0 3rem;
-}
-
-span.highlight {
-  background: #19ff8f59;
-}
-
-.underline {
-  line-height: 0 !important;
-  border-bottom: 2px solid #a57bff;
-}
-
 p {
   line-height: 2.3rem;
+}
+p a {
+  text-decoration: none !important;
+}
+
+b {
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
 
 sup {
@@ -186,8 +185,58 @@ sup {
   letter-spacing: 1px;
 }
 
-p a {
-  text-decoration: none !important;
+.title {
+  padding: 2rem 0 3rem;
+}
+
+.subtitle {
+  background: #ffffff;
+  color: black;
+  padding: 0 16px;
+}
+
+.highlight {
+  background: #19ff8f3d;
+}
+
+.underline {
+  line-height: 0 !important;
+  border-bottom: 2px solid #a57bff;
+}
+.underline.red {
+  border-bottom: 2px solid #eb5756 !important;
+}
+
+.maths {
+  color: #6f818a;
+  margin-bottom: 20px !important;
+}
+.maths sub {
+  color: #6f808a;
+}
+
+.rainbow-list {
+  padding-left: 0;
+}
+.rainbow-list li {
+  padding-left: 5px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.rainbow-list li:nth-child(1) {
+  background-color: #34e8907d;
+}
+.rainbow-list li:nth-child(2) {
+  background-color: #f2ca4b7a;
+}
+.rainbow-list li:nth-child(3) {
+  background-color: #f2994973;
+}
+.rainbow-list li:nth-child(4) {
+  background-color: #eb575675;
+}
+.rainbow-list li:nth-child(5) {
+  background-color: #fc88ce70;
 }
 
 .sidenav {
@@ -428,10 +477,46 @@ a.footnote {
   background: #222629;
   padding: 20px 0 80px;
   margin-top: -40px;
+  margin-left: 50px;
+  position: relative;
 }
 
 img.full-width-image {
   width: 100%;
+}
+img.elements {
+  width: 498px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  animation-name: spin;
+  animation-duration: 50000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bibliography-item {
+  padding-bottom: 32px;
+}
+.bibliography-item a {
+  overflow-wrap: break-word;
+  color: white;
+}
+.bibliography-item .bib-footnote {
+  font-size: 14px;
+  background: #a57bff;
+  color: #222629 !important;
+  padding: 0 3px;
+  font-weight: 600;
 }
 
 /*@import "darkmode";

@@ -1,6 +1,7 @@
-.sidenav { 
+.sidenav {
     font-size: 14px;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -20,21 +21,18 @@ h5 {
     margin: 1rem 0;
 }
 
-.title {
-    padding: 2rem 0 3rem;
-}
-
-span.highlight {
-    background: #19ff8f59;
-}
-
-.underline {
-    line-height: 0 !important;
-    border-bottom: 2px solid $purple;
-}
 
 p {
     line-height: 2.3rem;
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
+b {
+    font-weight: 600;
+    letter-spacing: 0.2px;
 }
 
 sup {
@@ -44,10 +42,66 @@ sup {
     letter-spacing: 1px;
 }
 
-p a {
-    text-decoration: none!important;
+.title {
+    padding: 2rem 0 3rem;
+}
+
+.subtitle {
+    background: #ffffff;
+    color: black;
+    padding: 0 16px;
+}
+
+.highlight {
+    background: #19ff8f3d;
+}
+
+.underline {
+    line-height: 0 !important;
+    border-bottom: 2px solid $purple;
+
+    &.red {
+        border-bottom: 2px solid #eb5756 !important;
+    }
+}
+
+.maths {
+    color: #6f818a;
+    margin-bottom: 20px !important;
+
+    sub {
+        color: #6f808a;
+    }
 }
 
 
+.rainbow-list {
+    padding-left: 0;
 
+    li {
+        padding-left: 5px;
+        list-style-type: none;
+        margin-bottom: 10px;
 
+        &:nth-child(1) {
+            background-color: #34e8907d;
+        }
+
+        &:nth-child(2) {
+            background-color: #f2ca4b7a;
+        }
+
+        &:nth-child(3) {
+            background-color: #f2994973;
+        }
+
+        &:nth-child(4) {
+            background-color: #eb575675;
+        }
+
+        &:nth-child(5) {
+            background-color: #fc88ce70;
+        }
+
+    }
+}

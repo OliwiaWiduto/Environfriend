@@ -1,10 +1,38 @@
 .commitimage {
-   background: $black;
+    background: $black;
     padding: 20px 0 80px;
     margin-top: -40px;
+    margin-left: 50px;
+    position: relative;
 }
 
-img.full-width-image {
-    width: 100%;
-    
+img {
+    &.full-width-image {
+        width: 100%;
+
+    }
+
+    &.elements {
+        width: 498px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        animation-name: spin;
+        animation-duration: 50000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }

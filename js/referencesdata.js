@@ -50,7 +50,7 @@ const referencesData = [
  {
    "id": 5,
    "author": "Kurzgesagt",
-   "title": "Is it too late to stop climate change? Well, it's complicated.",
+   "title": "Is it too late to stop climate change? Well, it's complicated",
    "publisher": "Youtube",
    "date": "29th September",
    "year": 2020,

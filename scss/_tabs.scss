@@ -98,9 +98,12 @@
 
 .vl {
     border-left: 1px solid #464B51;
-    height: 80vh;
+    height: 1500px;
     position: absolute;
     z-index: -10;
     margin-left: 19px;
     margin-top: 36px;
+    &.last {
+       height: 200px; 
+    }
 }

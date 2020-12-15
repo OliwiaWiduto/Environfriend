@@ -39,12 +39,17 @@ referencesData.forEach(item => {
     reference.setAttribute('class', 'reference');
     reference.setAttribute('id', item.id);
 
+    // Wrap publisher in brackets if there is one.
+    // E.g 'Mary Jane' => '(Mary Jane)' or '' => ''.
+    item.publisher = item.publisher ? `(${item.publisher})` : item.publisher;
+    item.author = item.author ? `${item.author},` : item.author;
+    item.title = item.title ? `${item.title},` : item.title;
+
     // Injects child elements with Chicago reference content
     reference.innerHTML = `
-        
-        <p>${item.id}. ${item.author}, 
-        <i>${item.title}</i>, 
-        (${item.publisher})
+        <p>${item.id}. ${item.author} 
+        <i>${item.title}</i> 
+        ${item.publisher}
         ${item.date} ${item.year}, 
         <a href="${item.link}">${item.link}</a>
         </p>
@@ -53,7 +58,6 @@ referencesData.forEach(item => {
 
     referenceContainer.appendChild(reference);
 });
-
 
 
 
