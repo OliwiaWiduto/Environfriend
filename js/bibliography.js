@@ -14,6 +14,7 @@ referencesData.forEach(item => {
     reference.innerHTML = `
         <p><span class="bib-footnote">${item.id}</span> ${item.author} 
         <i>${item.title}</i> 
+        <br>
         ${item.publisher}
         ${item.date} ${item.year}, 
         <a href="${item.link}">${item.link}</a>
