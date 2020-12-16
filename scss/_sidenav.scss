@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
     background-color: #1d2023;
 
     @include phone {
@@ -24,7 +24,6 @@
 
         .navItemsButton {
             padding: 8px 8px 8px 16px;
-
             text-decoration: none;
             color: #435056;
             display: block;
@@ -85,7 +84,7 @@
     }
 
     #main {
-        transition: margin-left .5s;
+        transition: margin-left .3s;
         padding: 16px;
     }
 }

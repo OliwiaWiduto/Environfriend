@@ -1,15 +1,21 @@
 .bibliography-item {
     padding-bottom: 32px;
+
     a {
-    overflow-wrap: break-word;
-    color: white;
+        overflow-wrap: break-word;
+        color: white;
+        transition: 0.3s;
+
+        &:hover {
+            color: #a57bff;
+        }
     }
 
-.bib-footnote {
-    font-size: 14px;
-    background: #a57bff;
-    color: #222629 !important;
-    padding: 0 3px;
-    font-weight: 600;
-}
+    .bib-footnote {
+        font-size: 14px;
+        background: #a57bff;
+        color: #222629 !important;
+        padding: 0 3px;
+        font-weight: 600;
+    }
 }

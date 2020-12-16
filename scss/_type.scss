@@ -83,25 +83,28 @@ sup {
         list-style-type: none;
         margin-bottom: 10px;
 
-        &:nth-child(1) {
-            background-color: #34e8907d;
+        &:nth-child(6n+1) {
+            background-color: #34e8904f;
         }
 
-        &:nth-child(2) {
+        &:nth-child(6n+2) {
             background-color: #f2ca4b7a;
         }
 
-        &:nth-child(3) {
+        &:nth-child(6n+3) {
             background-color: #f2994973;
         }
 
-        &:nth-child(4) {
+        &:nth-child(6n+4) {
             background-color: #eb575675;
         }
 
-        &:nth-child(5) {
+        &:nth-child(6n+5) {
             background-color: #fc88ce70;
         }
 
+        &:nth-child(6n+6) {
+            background-color: #a57bff4a;
+        }
     }
 }

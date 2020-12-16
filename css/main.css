@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.css-transitions-only-after-page-load * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');*/
 /*COLORS*/
 .pri {
@@ -24,6 +31,7 @@ button {
 
 body {
   background: #222629;
+  margin-bottom: 0;
 }
 
 html {
@@ -45,6 +53,18 @@ html {
   .content {
     width: auto !important;
   }
+}
+
+#upButton {
+  cursor: pointer;
+  width: 300px;
+}
+
+.css-transitions-only-after-page-load * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 
 .tab {
@@ -223,20 +243,23 @@ sup {
   list-style-type: none;
   margin-bottom: 10px;
 }
-.rainbow-list li:nth-child(1) {
-  background-color: #34e8907d;
+.rainbow-list li:nth-child(6n+1) {
+  background-color: #34e8904f;
 }
-.rainbow-list li:nth-child(2) {
+.rainbow-list li:nth-child(6n+2) {
   background-color: #f2ca4b7a;
 }
-.rainbow-list li:nth-child(3) {
+.rainbow-list li:nth-child(6n+3) {
   background-color: #f2994973;
 }
-.rainbow-list li:nth-child(4) {
+.rainbow-list li:nth-child(6n+4) {
   background-color: #eb575675;
 }
-.rainbow-list li:nth-child(5) {
+.rainbow-list li:nth-child(6n+5) {
   background-color: #fc88ce70;
+}
+.rainbow-list li:nth-child(6n+6) {
+  background-color: #a57bff4a;
 }
 
 .sidenav {
@@ -247,7 +270,7 @@ sup {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.2s;
   background-color: #1d2023;
 }
 @media (max-width: 599px) {
@@ -313,7 +336,7 @@ sup {
   }
 }
 .sidenav #main {
-  transition: margin-left 0.5s;
+  transition: margin-left 0.3s;
   padding: 16px;
 }
 
@@ -510,6 +533,10 @@ img.elements {
 .bibliography-item a {
   overflow-wrap: break-word;
   color: white;
+  transition: 0.3s;
+}
+.bibliography-item a:hover {
+  color: #a57bff;
 }
 .bibliography-item .bib-footnote {
   font-size: 14px;

@@ -1,5 +1,6 @@
 body {
     background: $black;
+    margin-bottom: 0;
 }
 
 html {
@@ -21,4 +22,16 @@ html {
     @include phone {
         width: auto !important;
     }
+}
+
+#upButton {
+    cursor: pointer;
+    width:300px;
+}
+
+.css-transitions-only-after-page-load * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }

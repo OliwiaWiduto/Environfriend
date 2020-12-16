@@ -7,9 +7,7 @@ const referencesData = [
    "date": "23rd April",
    "year": 2019,
    "link": "https://www.theguardian.com/environment/2019/apr/23/greta-thunberg-full-speech-to-mps-you-did-not-act-in-time",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 2,
@@ -19,9 +17,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://docs.google.com/spreadsheets/d/1YxvuU0IYXEFWEmddc9N1be7lYxuzPdgRDd3fjsPmewk/edit?fbclid=IwAR2wh4omWlTw_hQkzoyi3SVyAH8HGg38WhcbxTE4eOHnAl8JQ3Vr66bS7Hk#gid=0",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 3,
@@ -31,9 +27,7 @@ const referencesData = [
    "date": "",
    "year": 2019,
    "link": "",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "September 2020"
  },
  {
    "id": 4,
@@ -43,21 +37,17 @@ const referencesData = [
    "date": "4th October",
    "year": 2018,
    "link": "https://interactive.carbonbrief.org/impacts-climate-change-one-point-five-degrees-two-degrees/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 5,
    "author": "Kurzgesagt",
-   "title": "Is it too late to stop climate change? Well, it's complicated",
+   "title": "Is it too late to stop climate change? Well, it's complicated.",
    "publisher": "Youtube",
    "date": "29th September",
    "year": 2020,
    "link": "https://www.youtube.com/watch?v=wbR-5mHI6bo&list=PLFs4vir_WsTyXrrpFstD64Qj95vpy-yo1&ab_channel=Kurzgesagt%E2%80%93InaNutshell",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 6,
@@ -67,9 +57,7 @@ const referencesData = [
    "date": "16th February",
    "year": 2020,
    "link": "https://asim.dev/articles/climate-change-101/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 7,
@@ -79,9 +67,7 @@ const referencesData = [
    "date": "23rd April",
    "year": 2019,
    "link": "https://www.theguardian.com/environment/2019/apr/23/greta-thunberg-full-speech-to-mps-you-did-not-act-in-time",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 8,
@@ -91,9 +77,7 @@ const referencesData = [
    "date": "23rd September",
    "year": 2019,
    "link": "https://www.youtube.com/watch?v=KAJsdgTPJpU&ab_channel=PBSNewsHour",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 9,
@@ -103,9 +87,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 10,
@@ -115,9 +97,7 @@ const referencesData = [
    "date": "16th June",
    "year": 2019,
    "link": "https://www.investopedia.com/articles/investing/100515/three-pillars-corporate-sustainability.asp",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 11,
@@ -127,9 +107,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://sustainability.google/commitments/#leading-at-google",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 12,
@@ -139,9 +117,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://gerrymcgovern.com/books/world-wide-waste/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 13,
@@ -151,9 +127,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://gerrymcgovern.com/books/world-wide-waste/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 14,
@@ -163,9 +137,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://www.google.com/search?q=define+cloud+computing&oq=define+cloud+&aqs=chrome.0.0i457j0l2j69i57j0l4.11473j1j9&sourceid=chrome&ie=UTF-8",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 15,
@@ -175,9 +147,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://www.google.com/search?sxsrf=ALeKk03kY84ShsmPpizmWYHZFlM82nJ9aQ%3A1607518852995&ei=hMrQX4KkPMbKgQaPg7CgBQ&q=data+center+definition",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 16,
@@ -187,9 +157,7 @@ const referencesData = [
    "date": "17th October",
    "year": 2019,
    "link": "https://www.datacenterknowledge.com/cloud/analysts-there-are-now-more-500-hyperscale-data-centers-world",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 17,
@@ -199,9 +167,7 @@ const referencesData = [
    "date": "31st January",
    "year": 2019,
    "link": "https://towardsdatascience.com/how-big-is-big-data-3fb14d5351ba",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 18,
@@ -211,21 +177,17 @@ const referencesData = [
    "date": "4th May",
    "year": 2018,
    "link": "https://h5datacenters.com/h5-atlanta.html#:~:text=H5%20Data%20Centers%20is%20one,data%20center%20space%20under%20management.",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 19,
    "author": "",
-   "title": "Power Grid",
+   "title": "power grid",
    "publisher": "Collins",
    "date": "",
    "year": 2020,
    "link": "https://www.collinsdictionary.com/dictionary/english/power-grid",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 20,
@@ -235,9 +197,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://www.economy-ni.gov.uk/articles/electricity-consumption-and-renewable-generation-statistics",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 21,
@@ -247,9 +207,7 @@ const referencesData = [
    "date": "28th March",
    "year": 2019,
    "link": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/790626/2018-provisional-emissions-statistics-report.pdf",
-   "place": "UK",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 22,
@@ -259,9 +217,7 @@ const referencesData = [
    "date": "June",
    "year": 2020,
    "link": "https://www.iea.org/reports/data-centres-and-data-transmission-networks",
-   "place": "Paris",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 23,
@@ -271,9 +227,7 @@ const referencesData = [
    "date": "4th June",
    "year": 2019,
    "link": "https://www.forbes.com/sites/marymeehan/2019/06/04/what-your-data-isnt-telling-you-dark-data-presents-problems-and-opportunities-for-big-businesses/?sh=2d389829484e",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 24,
@@ -283,9 +237,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://support.apple.com/en-gb/guide/activity-monitor/welcome/mac",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 25,
@@ -295,9 +247,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://www.obdev.at/products/littlesnitch/index.html",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "October 2020"
  },
  {
    "id": 26,
@@ -307,9 +257,7 @@ const referencesData = [
    "date": "",
    "year": 2015,
    "link": "https://www.reddit.com/r/OneNote/comments/2x9jkq/can_you_use_onenote_without_onedrive/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 27,
@@ -319,9 +267,7 @@ const referencesData = [
    "date": "5th June",
    "year": 2014,
    "link": "https://www.interactivesearchmarketing.com/jpeg-png-proper-image-formatting/#:~:text=The%20full%2Dsize%20PNG%20has,quality%20is%20far%20more%20noticeable.",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 28,
@@ -331,9 +277,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://w3techs.com/technologies/details/cm-wordpress",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 29,
@@ -343,9 +287,7 @@ const referencesData = [
    "date": "5th Feb",
    "year": 2015,
    "link": "https://readwrite.com/2015/02/05/etsy-reinvented-development-process/#:~:text=The%20Etsy%20codebase%20is%20primarily,used%20for%20front%20end%20design.",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 30,
@@ -355,9 +297,7 @@ const referencesData = [
    "date": "28th September",
    "year": 2020,
    "link": "https://chrome.google.com/webstore/detail/data-usage/dopfdeikfpadofngjnjokfgmboicnppc/related?hl=en-GB",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 31,
@@ -367,9 +307,7 @@ const referencesData = [
    "date": "November",
    "year": 2020,
    "link": "https://www.similarweb.com/website/etsy.com/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 32,
@@ -379,9 +317,7 @@ const referencesData = [
    "date": "9th January",
    "year": 2020,
    "link": "https://www.simform.com/websites-use-react/#Reddit",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 33,
@@ -391,9 +327,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://i.pinimg.com/564x/cb/69/f6/cb69f68097d934c1f9c7e714e1ee156b.jpg",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 34,
@@ -403,9 +337,7 @@ const referencesData = [
    "date": "June",
    "year": 2016,
    "link": "https://www.ukgbc.org/sites/default/files/UK-GBC%20EC%20Developing%20Client%20Brief.pdf",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 35,
@@ -415,9 +347,7 @@ const referencesData = [
    "date": "January",
    "year": 2019,
    "link": "https://i.dell.com/sites/csdocuments/CorpComm_Docs/en/carbon-footprint-poweredge-r640.pdf",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 36,
@@ -427,9 +357,7 @@ const referencesData = [
    "date": "",
    "year": 2020,
    "link": "https://principles.green/principles/embodied-carbon/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 37,
@@ -439,9 +367,7 @@ const referencesData = [
    "date": "7th June",
    "year": 2016,
    "link": "https://www.zdnet.com/article/aws-cloud-computing-ops-data-centers-1-3-million-servers-creating-efficiency-flywheel/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 38,
@@ -451,9 +377,7 @@ const referencesData = [
    "date": "14th February",
    "year": 2020,
    "link": "https://www.quora.com/How-many-servers-does-AWS-have",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 39,
@@ -463,9 +387,7 @@ const referencesData = [
    "date": "28th September",
    "year": 2018,
    "link": "https://docs.google.com/document/d/1eCCb3rgqtQxcRwLdTr0P_hCK_drIZrm1Dpb4dlPeG6M/edit",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 40,
@@ -475,9 +397,7 @@ const referencesData = [
    "date": "27th August",
    "year": 2020,
    "link": "https://www.investopedia.com/terms/m/mooreslaw.asp",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 41,
@@ -487,9 +407,7 @@ const referencesData = [
    "date": "4th June",
    "year": 2019,
    "link": "https://www.investopedia.com/terms/p/planned_obsolescence.asp",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 42,
@@ -499,9 +417,7 @@ const referencesData = [
    "date": "24th January",
    "year": 2019,
    "link": "https://www.unenvironment.org/news-and-stories/press-release/un-report-time-seize-opportunity-tackle-challenge-e-waste",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 43,
@@ -511,9 +427,7 @@ const referencesData = [
    "date": "4th October",
    "year": 2019,
    "link": "https://9to5google.com/2019/10/04/google-product-graveyard-halloween/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 44,
@@ -523,9 +437,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://gcemetery.co/page/12/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 45,
@@ -535,9 +447,7 @@ const referencesData = [
    "date": "20th December",
    "year": 2019,
    "link": "https://www.theregister.com/2019/12/20/web_devs_identify_top_needs_in_new_survey/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 46,
@@ -547,9 +457,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://en.wikipedia.org/wiki/Internet_Explorer_11",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 47,
@@ -559,9 +467,7 @@ const referencesData = [
    "date": "17th August",
    "year": 2020,
    "link": "https://www.theverge.com/2020/8/17/21372487/microsoft-internet-explorer-11-support-end-365-legacy-edge",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 48,
@@ -571,9 +477,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://www.justice.gov/atr/us-v-microsoft-proposed-findings-fact-1",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 49,
@@ -583,9 +487,7 @@ const referencesData = [
    "date": "25th July",
    "year": 2020,
    "link": "https://www.techworm.net/2016/11/computerlaptop-big-tech-companies-give-engineers-programmers.html#:~:text=Microsoft%20unquestioning%20trusts%20Lenovo%20for,was%20used%20for%20engineering%2Fprogramming.",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 50,
@@ -595,9 +497,7 @@ const referencesData = [
    "date": "",
    "year": "",
    "link": "https://en.wikipedia.org/wiki/ThinkPad_W_series#:~:text=One%20white%20ThinkLight-,W530,to%20the%20prior%20W%20models.",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 51,
@@ -607,9 +507,7 @@ const referencesData = [
    "date": "20th July",
    "year": 2012,
    "link": "https://www.laptopmag.com/uk/reviews/laptops/lenovo-thinkpad-w530#:~:text=upped%20the%20settings.-,Battery%20Life,8%20hours%20and%202%20minutes).",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 52,
@@ -619,9 +517,7 @@ const referencesData = [
    "date": "11th July",
    "year": 2010,
    "link": "https://forum.thinkpads.com/viewtopic.php?t=88819#:~:text=Your%20Thinkpad%20will%20take%20between,monitor%20their%20temperature%20during%20charge.",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 53,
@@ -631,9 +527,7 @@ const referencesData = [
    "date": "20th July",
    "year": 2012,
    "link": "https://www.laptopmag.com/uk/reviews/laptops/lenovo-thinkpad-w530#:~:text=upped%20the%20settings.-,Battery%20Life,8%20hours%20and%202%20minutes).",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 54,
@@ -643,9 +537,7 @@ const referencesData = [
    "date": "28th March",
    "year": 2019,
    "link": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/790626/2018-provisional-emissions-statistics-report.pdf",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 55,
@@ -655,9 +547,7 @@ const referencesData = [
    "date": "November",
    "year": 2020,
    "link": "https://www.youtube.com/watch?v=qauz5ErVB2M&feature=emb_imp_woyt&ab_channel=Manifesto",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 56,
@@ -667,9 +557,7 @@ const referencesData = [
    "date": "8th June",
    "year": 2017,
    "link": "https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "November 2020"
  },
  {
    "id": 57,
@@ -679,9 +567,7 @@ const referencesData = [
    "date": "November",
    "year": 2020,
    "link": "https://www.youtube.com/watch?v=qauz5ErVB2M&feature=emb_imp_woyt&ab_channel=Manifesto",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "December 2020"
  },
  {
    "id": 58,
@@ -691,9 +577,7 @@ const referencesData = [
    "date": "30th March",
    "year": 2018,
    "link": "https://www.shopify.co.uk/blog/7412852-10-must-know-image-optimization-tips#four",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "December 2020"
  },
  {
    "id": 59,
@@ -703,8 +587,6 @@ const referencesData = [
    "date": "6th Semptember",
    "year": 2020,
    "link": "https://the-sustainable.dev/how-to-audit-your-website-on-a-budget/",
-   "place": "",
-   "page": "",
-   "dissertation": ""
+   "accessed": "December 2020"
  }
 ];

@@ -42,8 +42,8 @@ referencesData.forEach(item => {
     // Wrap publisher in brackets if there is one.
     // E.g 'Mary Jane' => '(Mary Jane)' or '' => ''.
     // item.publisher = item.publisher ? `${item.publisher}` : item.publisher;
-    item.author = item.author ? `${item.author}` : item.author;
-    item.title = item.title ? `, ${item.title}` : item.title;
+    item.author = item.author ? `${item.author},` : item.author;
+    item.title = item.title ? `"${item.title}"` : item.title;
     // item.date = item.date ? `, ${item.date}` : item.date;
 
     // Injects child elements with Chicago reference content
@@ -51,8 +51,9 @@ referencesData.forEach(item => {
         <p>${item.id}. ${item.author} 
         <i>${item.title}</i>
         <br>
-        ${item.publisher},
-        ${item.date} ${item.year}, 
+        ${item.publisher}
+        ${item.date} ${item.year}.
+        Accessed: ${item.accessed}.
         <a href="${item.link}">${item.link}</a>
         </p>
     `;

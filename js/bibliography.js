@@ -16,7 +16,8 @@ referencesData.forEach(item => {
         <i>${item.title}</i> 
         <br>
         ${item.publisher}
-        ${item.date} ${item.year}, 
+        ${item.date} ${item.year}.
+        Accessed: ${item.accessed}. 
         <a href="${item.link}">${item.link}</a>
         </p>
     `;
