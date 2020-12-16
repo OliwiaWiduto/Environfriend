@@ -16,6 +16,7 @@ allFootnotes.forEach(function(footnote) {
     // Set our attributes for the footnote.
     footnote.setAttribute('href', 'javascript:void(0)');
     footnote.setAttribute("onclick", `openReference(event, '${referenceData.id}')`);
+    footnote.setAttribute('title', 'Click to display footnote in source panel on the left');
 
     // Must increment the footnote by 1 at the end of the loop.
     footnoteTotal++;
@@ -71,6 +72,8 @@ referencesData.forEach(item => {
 function openReference(evt, referenceName) {
     var i, reference, footnoteButton;
 
+    document.querySelector('.nav-label').style.display = "none";
+
     reference = document.getElementsByClassName("reference");
     for (i = 0; i < reference.length; i++) {
         reference[i].style.display = "none";
@@ -84,10 +87,6 @@ function openReference(evt, referenceName) {
     document.getElementById(referenceName).style.display = "inline-block";
     evt.currentTarget.className += " active";
 }
-
-
-
-
 
 
 

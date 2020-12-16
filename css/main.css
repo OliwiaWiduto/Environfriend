@@ -60,13 +60,6 @@ html {
   width: 300px;
 }
 
-.css-transitions-only-after-page-load * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}
-
 .tab {
   overflow: hidden;
   border: 1px solid #ffffff;
@@ -281,6 +274,10 @@ sup {
 .sidenav .navItemContainer {
   border-bottom: 0.5px solid #2e3335;
   padding: 16px 0;
+}
+.sidenav .navItemContainer .nav-label {
+  padding: 8px 8px 8px 32px;
+  color: #435056;
 }
 .sidenav .navItemContainer.first {
   border-top: 0.5px solid #2e3335;

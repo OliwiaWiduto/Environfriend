@@ -14,9 +14,13 @@
     }
 
     .navItemContainer {
-
         border-bottom: 0.5px solid #2e3335;
         padding: 16px 0;
+
+        .nav-label {
+            padding: 8px 8px 8px 32px;
+            color: #435056;
+        }
 
         &.first {
             border-top: 0.5px solid #2e3335;
@@ -38,7 +42,7 @@
             }
 
             &.active .chevron {
-                transform: rotate(270deg)!important;
+                transform: rotate(270deg) !important;
             }
         }
 
